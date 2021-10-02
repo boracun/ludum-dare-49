@@ -4,7 +4,7 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: -7028215270257684493
-    second: Customers_0
+    second: Customer_1_0
   - first:
       213: -5384411249408941408
     second: Customer_1_1
@@ -28,7 +28,7 @@ TextureImporter:
     second: Customer_1_7
   - first:
       213: 5432016278139700543
-    second: Customers_8
+    second: Customer_2_0
   - first:
       213: -7564846539668655490
     second: Customer_2_1
@@ -52,7 +52,7 @@ TextureImporter:
     second: Customer_2_7
   - first:
       213: 1151701291081284243
-    second: Customers_16
+    second: Customer_3_0
   - first:
       213: 1020631588479195596
     second: Customer_3_1
@@ -76,7 +76,7 @@ TextureImporter:
     second: Customer_3_7
   - first:
       213: -6763199860149671307
-    second: Customers_24
+    second: Customer_4_0
   - first:
       213: -5945639951553075163
     second: Customer_4_1
@@ -211,7 +211,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Customers_0
+      name: Customer_1_0
       rect:
         serializedVersion: 2
         x: 0
@@ -379,7 +379,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Customers_8
+      name: Customer_2_0
       rect:
         serializedVersion: 2
         x: 1
@@ -547,7 +547,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Customers_16
+      name: Customer_3_0
       rect:
         serializedVersion: 2
         x: 0
@@ -715,7 +715,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Customers_24
+      name: Customer_4_0
       rect:
         serializedVersion: 2
         x: 1
