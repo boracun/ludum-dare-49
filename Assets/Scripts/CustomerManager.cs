@@ -76,7 +76,7 @@ public class CustomerManager : MonoBehaviour
         return customer1Prefab;
     }
 
-    public GameObject GETRandomEmptyTable()
+    private GameObject GETRandomEmptyTable()
     {
         GameObject[] allTables = GameObject.FindGameObjectsWithTag("Table");
         List<GameObject> emptyTables = new List<GameObject>();
@@ -96,5 +96,25 @@ public class CustomerManager : MonoBehaviour
         Random random = new Random();
         int randomIndex = random.NextInt(0, emptyTables.Count);
         return emptyTables[randomIndex];
+    }
+
+    public int[,] GETTableRoute()
+    {
+        Table table = GETRandomEmptyTable().GetComponent<Table>();
+        if (table == null)
+        {
+            return null;
+        }
+        GameObject[] customers = table.customers;
+        for (int i = 0; i < customers.Length; i++)
+        {
+            if (customers[i] == null)
+            {
+                string key = "Table" + table.tableNo + "Route" + i;
+                return TableRouteMap.TableRouteDictionary[key];
+            }
+        }
+
+        return null;
     }
 }
