@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Donut
   m_EditorClassIdentifier: 
   menuItemName: Donut
-  menuItemSprite: {fileID: 0}
+  menuItemSprite: {fileID: 4437095545058383578, guid: 8f85083a9ecac574b86027d7fbee1061, type: 3}

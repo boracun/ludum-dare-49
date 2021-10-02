@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Wine
   m_EditorClassIdentifier: 
   menuItemName: Wine
-  menuItemSprite: {fileID: 0}
+  menuItemSprite: {fileID: -4473606043065325682, guid: 8f85083a9ecac574b86027d7fbee1061, type: 3}

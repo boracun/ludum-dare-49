@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: HotDog
   m_EditorClassIdentifier: 
   menuItemName: HotDog
-  menuItemSprite: {fileID: 0}
+  menuItemSprite: {fileID: -2274271090215981134, guid: 8f85083a9ecac574b86027d7fbee1061, type: 3}
