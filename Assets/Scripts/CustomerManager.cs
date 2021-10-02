@@ -98,7 +98,7 @@ public class CustomerManager : MonoBehaviour
         return emptyTables[randomIndex];
     }
 
-    public int[,] GETTableRoute()
+    public float[,] GETTableRoute()
     {
         Table table = GETRandomEmptyTable().GetComponent<Table>();
         if (table == null)

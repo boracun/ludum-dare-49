@@ -1,4 +1,5 @@
 using System;
+using Movement;
 using UnityEditor;
 using UnityEngine;
 using Random = UnityEngine.Random;
@@ -29,11 +30,15 @@ namespace Objects
         
         public float timeOfWaitForOrder;
 
-        private float timeOfWaitForOrderIntervalTimer;
+        private float timeOfWaitForOrderIntervalTimer = 0f;
         
         public float timeOfWaitForFood;
         
-        private float timeOfWaitForFoodIntervalTimer;
+        private float timeOfWaitForFoodIntervalTimer = 0f;
+
+        public float timeOfLeaveAfterFood;
+
+        private float timeOfLeaveAfterFoodTimer = 0f;
         
         
 
@@ -49,12 +54,28 @@ namespace Objects
             timeOfWaitForFood = 0f;
             timeOfWaitForOrderIntervalTimer = 0f;
             timeOfWaitForFoodIntervalTimer = 0f;
+            timeOfLeaveAfterFood = 0f;
+            timeOfLeaveAfterFoodTimer = 0f;
         }
 
         private void Update()
         {
-            satButNotOrderedLogic();
-            orderedButNotDeliveredLogic();
+            SatButNotOrderedLogic();
+            OrderedButNotDeliveredLogic();
+            OrderDeliveredLogic();
+        }
+
+        private void OrderDeliveredLogic()
+        {
+            if (hasOrderDelivered)
+            {
+                timeOfLeaveAfterFoodTimer += Time.deltaTime;
+                if (timeOfLeaveAfterFood <= timeOfLeaveAfterFoodTimer)
+                {
+                    gameObject.GetComponent<CustomerMovement>().movementMode = CustomerMovement.LEAVE_MODE;
+                    timeOfLeaveAfterFoodTimer = 0f;
+                }
+            }
         }
 
         private GameObject GETRandomFood()
@@ -79,7 +100,7 @@ namespace Objects
             return (randomNum) * (BASE_FOOD_WAIT_TIME_LIMIT) + BASE_FOOD_WAIT_TIME_LIMIT;
         }
 
-        private void satButNotOrderedLogic()
+        private void SatButNotOrderedLogic()
         {
             if (hasSat && !hasOrdered)
             {
@@ -94,13 +115,13 @@ namespace Objects
                     if (timeOfWaitForOrderIntervalTimer > LOAController.orderWaitGetAngeryTimeInterval) 
                     {
                         timeOfWaitForOrderIntervalTimer = 0f;
-                        incrementLOA();
+                        IncrementLoa();
                     }
                 }
             }
         }
         
-        private void orderedButNotDeliveredLogic()
+        private void OrderedButNotDeliveredLogic()
         {
             if (hasOrdered && !hasOrderDelivered)
             {
@@ -112,13 +133,13 @@ namespace Objects
                     if (timeOfWaitForFoodIntervalTimer > LOAController.foodWaitGetAngeryTimeInterval) 
                     {
                         timeOfWaitForFoodIntervalTimer = 0f;
-                        incrementLOA();
+                        IncrementLoa();
                     }
                 }
             }
         }
 
-        private void incrementLOA()
+        private void IncrementLoa()
         {
             if (LOAController.LOALimit > levelOfAnger && !hasOrderDelivered)
             {
