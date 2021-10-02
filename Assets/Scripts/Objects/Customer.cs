@@ -120,7 +120,7 @@ namespace Objects
 
         private void incrementLOA()
         {
-            if (LOAController.LOALimit > levelOfAnger)
+            if (LOAController.LOALimit > levelOfAnger && !hasOrderDelivered)
             {
                 levelOfAnger++;
             }
