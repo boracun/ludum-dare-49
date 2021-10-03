@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b52ecc66877e4f4ea6e4cdb434751f2, type: 3}
   m_Name: HotDog
   m_EditorClassIdentifier: 
-  menuItemName: HotDog
+  menuItemName: Hot Dog
   preparationTime: 15
   menuItemSprite: {fileID: -2274271090215981134, guid: 8f85083a9ecac574b86027d7fbee1061, type: 3}

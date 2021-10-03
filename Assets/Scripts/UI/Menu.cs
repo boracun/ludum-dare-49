@@ -12,13 +12,14 @@ namespace UI
         // Start is called before the first frame update
         void Start()
         {
-            GameObject buttonTemplate = transform.GetChild(0).gameObject;
+            GameObject buttonTemplate = transform.GetChild(1).gameObject;
             GameObject buttonToCreate;
 
             for (int i = 0; i < menuItems.Count; i++)
             {
                 buttonToCreate = Instantiate(buttonTemplate, transform);
-                buttonToCreate.transform.GetChild(0).GetComponent<Text>().text = menuItems[i].menuItemName;
+                buttonToCreate.transform.GetChild(0).GetComponent<Text>().text =
+                    menuItems[i].menuItemName + " (" + menuItems[i].preparationTime + "s)";
                 buttonToCreate.transform.GetChild(1).GetComponent<Image>().sprite = menuItems[i].menuItemSprite;
                 
                 buttonToCreate.GetComponent<Button>().AddEventListener(menuItems[i], Kitchen.OrderItem);
