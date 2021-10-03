@@ -39,15 +39,17 @@ namespace Objects
         public float timeOfLeaveAfterFood;
 
         private float timeOfLeaveAfterFoodTimer = 0f;
-        
-        
+
+        private bool hasPointGiven;
+
 
         public void Start()
         {
             hasOrdered = false;
             hasSat = false;
             hasOrderDelivered = false;
-            levelOfAnger = 0f;
+            hasPointGiven = false;
+            levelOfAnger = 0;
             orderWaitTimeLimit = GETRandomOrderWaitTimeLimit();
             foodWaitTimeLimit = GETRandomFoodWaitTimeLimit();
             timeOfWaitForOrder = 0f;
@@ -69,6 +71,11 @@ namespace Objects
         {
             if (hasOrderDelivered)
             {
+                if (!hasPointGiven)
+                {
+                    GameObject.Find("RestaurantManager").GetComponent<ReputationManager>().reputation +=
+                        (LOAController.LOALimit - levelOfAnger);
+                }
                 timeOfLeaveAfterFoodTimer += Time.deltaTime;
                 if (timeOfLeaveAfterFood <= timeOfLeaveAfterFoodTimer)
                 {
