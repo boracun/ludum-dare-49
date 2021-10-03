@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 namespace UI
 {
-    public class Menu : MonoBehaviour
+    public class OrderMenu : MonoBehaviour
     {
         [SerializeField] private List<MenuItem> menuItems;
         

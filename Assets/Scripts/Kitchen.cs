@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using UI;
 using UnityEngine;
 
 public class Kitchen : MonoBehaviour
@@ -8,13 +9,13 @@ public class Kitchen : MonoBehaviour
     public static Kitchen Instance;
     private Queue<MenuItem> orderedItems;
     private MenuItem currentlyPreparedItem;
-    private List<MenuItem> readyItems;
+    public List<MenuItem> readyItems;
 
     void Awake()
     {
         Instance = this;
         orderedItems = new Queue<MenuItem>();
-        readyItems = new List<MenuItem>();
+        readyItems = new List<MenuItem>();        //TODO commented for testing, remove comments n the final product
     }
 
     private void Update()
@@ -40,6 +41,8 @@ public class Kitchen : MonoBehaviour
     {
         yield return new WaitForSeconds(itemToPrepare.preparationTime);
         readyItems.Add(currentlyPreparedItem);
+        PickUpMenu pickUpMenu = FindObjectOfType<PickUpMenu>();
+        pickUpMenu.ItemPrepared(itemToPrepare);
         currentlyPreparedItem = null;
     }
 }
