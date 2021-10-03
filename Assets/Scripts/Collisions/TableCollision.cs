@@ -12,8 +12,8 @@ public class TableCollision : MonoBehaviour
         if (other.collider.CompareTag("Waiter"))
         {
             Waiter waiter = Waiter.Instance;
-            List<GameObject> customers = gameObject.GetComponent<Table>().customers;
-            for (int i = 0; i < customers.Count; i++)
+            GameObject[] customers = gameObject.GetComponent<Table>().customers;
+            for (int i = 0; i < customers.Length; i++)
             {
                 Customer customer = customers[i].GetComponent<Customer>();
                 CustomerMovement customerMovement = customers[i].GetComponent<CustomerMovement>();

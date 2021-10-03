@@ -47,10 +47,10 @@ namespace Movement
                 {
                     GameObject tableObj = routeNode.table;
                     selectedRoute = route;
-                    tableObj.GetComponent<Table>().customers.Add(gameObject);
+                    tableObj.GetComponent<Table>().AddCustomer(routeNode.routeIndex, gameObject);
                     table = tableObj;
-                    if (table.GetComponent<Table>().customers.Count == 3 ||
-                        table.GetComponent<Table>().customers.Count == 4)
+                    if (table.GetComponent<Table>().filledSeats == 3 ||
+                        table.GetComponent<Table>().filledSeats == 4)
                     {
                         gameObject.GetComponent<SpriteRenderer>().sortingOrder = 2;
                     }

@@ -83,7 +83,7 @@ namespace Objects
                     GameObject o = gameObject;
                     CustomerMovement customerMovement = (o).GetComponent<CustomerMovement>();
                     customerMovement.movementMode = CustomerMovement.LEAVE_MODE;
-                    customerMovement.table.GetComponent<Table>().customers.Remove(o);
+                    customerMovement.table.GetComponent<Table>().RemoveCustomer(o);
                     
                     timeOfLeaveAfterFoodTimer = 0f;
                 }

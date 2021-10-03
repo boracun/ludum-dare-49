@@ -7,6 +7,7 @@ using Random = UnityEngine.Random;
 
 public class RouteNode
 {
+    public int routeIndex;
     public float[,] route;
     public GameObject table;
 }
@@ -88,7 +89,7 @@ public class CustomerManager : MonoBehaviour
         foreach (var gObject in allTables)
         {
             Table table = gObject.GetComponent<Table>();
-            if (table.customers.Count < table.maxCount)
+            if (table.filledSeats < table.maxCount)
             {
                 emptyTables.Add(gObject);
             }
@@ -112,13 +113,13 @@ public class CustomerManager : MonoBehaviour
         RouteNode routeNode = new RouteNode();
         routeNode.table = tableObj;
 
-        List<GameObject> customers = table.customers;
-        if (customers.Count >= table.maxCount)
+        if (table.filledSeats >= table.maxCount)
         {
             return null;
         }
-        string key = "Table" + table.tableNo + "Route" + (customers.Count + 1);
+        string key = "Table" + table.tableNo + "Route" + (table.FindFirstEmptySpaceIndex() + 1);
         routeNode.route = TableRouteMap.TableRouteDictionary[key];
+        routeNode.routeIndex = table.FindFirstEmptySpaceIndex();
         return routeNode;
     }
 }

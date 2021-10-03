@@ -10,7 +10,6 @@ namespace Manager
 
         private void Update()
         {
-            Debug.Log(reputation);
             if (reputation < reputationLoseLimit)
             {
                 SceneManager.LoadScene("Ending");
