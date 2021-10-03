@@ -629,6 +629,59 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 09a92f67f6b34a446aca94166cfb72ad, type: 3}
+--- !u!1 &498069113
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 498069115}
+  - component: {fileID: 498069114}
+  m_Layer: 0
+  m_Name: ItemCatalog
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &498069114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 498069113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 178d4ec55332fb64abd50c58d1a44f37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MenuItems:
+  - {fileID: 11400000, guid: 764e391f2da9498469abe24d18eaadd3, type: 2}
+  - {fileID: 11400000, guid: 267a12f450e48e84c8015268ebff8e4b, type: 2}
+  - {fileID: 11400000, guid: f9f8c114eae83754aab085bb40ef486d, type: 2}
+  - {fileID: 11400000, guid: 36d752d4907663945848b008a6ec1009, type: 2}
+  - {fileID: 11400000, guid: ccc0864a7a543b94da4bc8447b194731, type: 2}
+  - {fileID: 11400000, guid: e236efb885229b14082e1c97ff610c6f, type: 2}
+  - {fileID: 11400000, guid: 2e76355b8723fe748beedb4bd641ecd3, type: 2}
+  - {fileID: 11400000, guid: d23b2be707807a64d8f0ef08a5d706ed, type: 2}
+  - {fileID: 11400000, guid: eefeb0fd46ab8804fa16825c170ce51f, type: 2}
+--- !u!4 &498069115
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 498069113}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.6963366, y: -0.3923826, z: -23.196823}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1086,7 +1139,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   customerSpawnTimer: 0
-  customerSpawnTimeLimit: 5
+  customerSpawnTimeLimit: 0
   customer1Prefab: {fileID: 2521437395178971254, guid: 628e50c14c7a98147b7c7e6d8c90c32d, type: 3}
   customer2Prefab: {fileID: 5159276290017112721, guid: f50dca795bca2f44aa48f8e6b43745a8, type: 3}
   customer3Prefab: {fileID: 8209086981570670535, guid: 58fd262cd0118944e90407d7b4f0775b, type: 3}

@@ -124,7 +124,7 @@ namespace Movement
                 Math.Abs(destinationPointY - tForm.position.y) <= TOLERANCE)
             {
                 rBody.velocity = new Vector2(0, 0);
-                if (routeStep + routeStepAddition > 0 && routeStepAddition + routeStep < selectedRoute.Length / 2)
+                if (routeStep + routeStepAddition >= 0 && routeStepAddition + routeStep < selectedRoute.Length / 2)
                 {
                     routeStep += routeStepAddition;
                 }

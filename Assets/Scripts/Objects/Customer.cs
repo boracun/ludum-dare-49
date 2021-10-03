@@ -72,7 +72,11 @@ namespace Objects
                 timeOfLeaveAfterFoodTimer += Time.deltaTime;
                 if (timeOfLeaveAfterFood <= timeOfLeaveAfterFoodTimer)
                 {
-                    gameObject.GetComponent<CustomerMovement>().movementMode = CustomerMovement.LEAVE_MODE;
+                    GameObject o = gameObject;
+                    CustomerMovement customerMovement = (o).GetComponent<CustomerMovement>();
+                    customerMovement.movementMode = CustomerMovement.LEAVE_MODE;
+                    customerMovement.table.GetComponent<Table>().customers.Remove(o);
+                    
                     timeOfLeaveAfterFoodTimer = 0f;
                 }
             }
