@@ -21,15 +21,10 @@ namespace UI
                 buttonToCreate.transform.GetChild(0).GetComponent<Text>().text = menuItems[i].menuItemName;
                 buttonToCreate.transform.GetChild(1).GetComponent<Image>().sprite = menuItems[i].menuItemSprite;
                 
-                buttonToCreate.GetComponent<Button>().AddEventListener(i, ItemClicked);
+                buttonToCreate.GetComponent<Button>().AddEventListener(menuItems[i], Kitchen.OrderItem);
             }
             
             Destroy(buttonTemplate);
-        }
-
-        void ItemClicked(int i)
-        {
-            Debug.Log("New Order: " + menuItems[i].menuItemName);
         }
     }
 
