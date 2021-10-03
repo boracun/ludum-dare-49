@@ -40,7 +40,7 @@ namespace Objects
 
         private float timeOfLeaveAfterFoodTimer = 0f;
 
-        private bool hasPointGiven;
+        public bool hasPointGiven;
 
 
         public void Start()
@@ -73,8 +73,8 @@ namespace Objects
             {
                 if (!hasPointGiven)
                 {
-                    GameObject.Find("RestaurantManager").GetComponent<ReputationManager>().reputation +=
-                        (LOAController.LOALimit - levelOfAnger);
+                    GameObject.Find("RestaurantManager").GetComponent<ReputationManager>().reputation -= levelOfAnger;
+                    hasPointGiven = true;
                 }
                 timeOfLeaveAfterFoodTimer += Time.deltaTime;
                 if (timeOfLeaveAfterFood <= timeOfLeaveAfterFoodTimer)
@@ -147,7 +147,7 @@ namespace Objects
 
         private void IncrementLoa()
         {
-            if (LOAController.LOALimit > levelOfAnger && !hasOrderDelivered)
+            if (!hasOrderDelivered)
             {
                 levelOfAnger++;
             }
