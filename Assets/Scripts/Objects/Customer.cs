@@ -12,7 +12,7 @@ namespace Objects
         
         public const float BASE_FOOD_WAIT_TIME_LIMIT = 20f;
 
-        public const float MAX_LIMIT_CHANGE_PRECENTAGE = 40f;
+        public const float MAX_LIMIT_CHANGE_PRECENTAGE = 0.4f;
 
         public bool hasSat;
 
@@ -24,7 +24,7 @@ namespace Objects
         
         public float foodWaitTimeLimit;
 
-        public GameObject order;
+        public MenuItem order;
 
         public float levelOfAnger;
         
@@ -78,11 +78,9 @@ namespace Objects
             }
         }
 
-        private GameObject GETRandomFood()
+        private MenuItem GETRandomFood()
         {
-            var foods = GameObject.FindGameObjectsWithTag("menuItem");
-            int randomNum = (int)Math.Floor(Random.Range(0f, 8.99999f));
-            return foods[randomNum];
+            return GameObject.Find("ItemCatalog").GetComponent<FoodCatalog>().GETRandomMenuItem();
         }
 
         private float GETRandomOrderWaitTimeLimit()
