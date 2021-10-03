@@ -11,8 +11,9 @@ GameObject:
   - component: {fileID: 8209086981570670533}
   - component: {fileID: 8209086981570670532}
   - component: {fileID: 1116632819415463867}
-  - component: {fileID: 8964983741183390290}
   - component: {fileID: 1331042209258093959}
+  - component: {fileID: 4488185845242910181}
+  - component: {fileID: 3808815319306815508}
   m_Layer: 0
   m_Name: Customer3
   m_TagString: Customer
@@ -29,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 8209086981570670535}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -6.338105, y: 1.2082787, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 6, y: 6, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -73,7 +74,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 4
   m_Sprite: {fileID: 1151701291081284243, guid: f0244e24cb5721e48b305e774552e2bd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -105,8 +106,48 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 1
-  m_Constraints: 0
---- !u!61 &8964983741183390290
+  m_Constraints: 4
+--- !u!114 &1331042209258093959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8209086981570670535}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4b9af7a58dd8bd4680b2af558240f15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasSat: 0
+  hasOrdered: 0
+  hasOrderDelivered: 0
+  orderWaitTimeLimit: 0
+  foodWaitTimeLimit: 0
+  order: {fileID: 0}
+  levelOfAnger: 0
+  timeOfWaitForOrder: 0
+  timeOfWaitForFood: 0
+  timeOfLeaveAfterFood: 0
+--- !u!114 &4488185845242910181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8209086981570670535}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d66e984d1745694459b41d2b99f7ca76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TOLERANCE: 0.05
+  horizontalMoveSpeed: 2
+  verticalMoveSpeed: 2
+  movementMode: 0
+  routeStep: 0
+  rBody: {fileID: 0}
+--- !u!61 &3808815319306815508
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -130,26 +171,5 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.14, y: 0.2}
   m_EdgeRadius: 0
---- !u!114 &1331042209258093959
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8209086981570670535}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d4b9af7a58dd8bd4680b2af558240f15, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hasSat: 0
-  hasOrdered: 0
-  hasOrderDelivered: 0
-  orderWaitTimeLimit: 0
-  foodWaitTimeLimit: 0
-  order: {fileID: 0}
-  levelOfAnger: 0
-  timeOfWaitForOrder: 0
-  timeOfWaitForFood: 0

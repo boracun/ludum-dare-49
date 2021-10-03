@@ -81,22 +81,19 @@ namespace Objects
         private GameObject GETRandomFood()
         {
             var foods = GameObject.FindGameObjectsWithTag("menuItem");
-            Unity.Mathematics.Random random = new Unity.Mathematics.Random();
-            int randomNum = random.NextInt(0, 8);
+            int randomNum = (int)Math.Floor(Random.Range(0f, 8.99999f));
             return foods[randomNum];
         }
 
         private float GETRandomOrderWaitTimeLimit()
         {
-            Unity.Mathematics.Random random = new Unity.Mathematics.Random();
-            float randomNum = random.NextFloat(-MAX_LIMIT_CHANGE_PRECENTAGE, MAX_LIMIT_CHANGE_PRECENTAGE);
+            float randomNum = Random.Range(-MAX_LIMIT_CHANGE_PRECENTAGE, MAX_LIMIT_CHANGE_PRECENTAGE);
             return (randomNum) * (BASE_ORDER_WAIT_TIME_LIMIT) + BASE_ORDER_WAIT_TIME_LIMIT;
         }
         
         private float GETRandomFoodWaitTimeLimit()
         {
-            Unity.Mathematics.Random random = new Unity.Mathematics.Random();
-            float randomNum = random.NextFloat(-MAX_LIMIT_CHANGE_PRECENTAGE, MAX_LIMIT_CHANGE_PRECENTAGE);
+            float randomNum = Random.Range(-MAX_LIMIT_CHANGE_PRECENTAGE, MAX_LIMIT_CHANGE_PRECENTAGE);
             return (randomNum) * (BASE_FOOD_WAIT_TIME_LIMIT) + BASE_FOOD_WAIT_TIME_LIMIT;
         }
 
@@ -144,6 +141,16 @@ namespace Objects
             if (LOAController.LOALimit > levelOfAnger && !hasOrderDelivered)
             {
                 levelOfAnger++;
+            }
+        }
+
+        public void sitOnTable()
+        {
+            if (!hasSat)
+            {
+                hasSat = true;
+                hasOrdered = false;
+                hasOrderDelivered = false;
             }
         }
     }

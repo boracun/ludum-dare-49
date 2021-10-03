@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using UnityEngine;
 
 namespace Objects
@@ -7,8 +8,8 @@ namespace Objects
     {
         public int tableNo;
         
-        public float maxCount;
+        public int maxCount;
 
-        public GameObject[] customers;
+        public List<GameObject> customers = new List<GameObject>();
     }
 }

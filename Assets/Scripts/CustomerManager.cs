@@ -1,8 +1,9 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using Objects;
 using UnityEngine;
-using Random = Unity.Mathematics.Random;
+using Random = UnityEngine.Random;
 
 public class CustomerManager : MonoBehaviour
 {
@@ -35,9 +36,9 @@ public class CustomerManager : MonoBehaviour
         }
     }
 
-    private float CalculateMaxSeatNum()
+    private int CalculateMaxSeatNum()
     {
-        float result = 0;
+        int result = 0;
         GameObject[] tables = GameObject.FindGameObjectsWithTag("Table");
         for (int i = 0; i < tables.Length; i++)
         {
@@ -58,9 +59,8 @@ public class CustomerManager : MonoBehaviour
 
     public GameObject GETRandomCustomer()
     {
-        Random random = new Random();
 
-        int randomNum = random.NextInt(1, 4);
+        int randomNum = (int)Math.Floor(Random.Range(1f, 4.99999f));
         switch (randomNum)
         {
             case 1:
@@ -83,18 +83,16 @@ public class CustomerManager : MonoBehaviour
         foreach (var gObject in allTables)
         {
             Table table = gObject.GetComponent<Table>();
-            if (table.customers.Length < table.maxCount)
+            if (table.customers.Count < table.maxCount)
             {
-                emptyTables.Add(gameObject);
+                emptyTables.Add(gObject);
             }
         }
-
         if (emptyTables.Count == 0)
         {
             return null;
         }
-        Random random = new Random();
-        int randomIndex = random.NextInt(0, emptyTables.Count);
+        int randomIndex = (int)Math.Floor(Random.Range(0f, emptyTables.Count - 0.000001f));
         return emptyTables[randomIndex];
     }
 
@@ -105,16 +103,12 @@ public class CustomerManager : MonoBehaviour
         {
             return null;
         }
-        GameObject[] customers = table.customers;
-        for (int i = 0; i < customers.Length; i++)
+        List<GameObject> customers = table.customers;
+        if (customers.Count >= table.maxCount)
         {
-            if (customers[i] == null)
-            {
-                string key = "Table" + table.tableNo + "Route" + i;
-                return TableRouteMap.TableRouteDictionary[key];
-            }
+            return null;
         }
-
-        return null;
+        string key = "Table" + table.tableNo + "Route" + (customers.Count + 1);
+        return TableRouteMap.TableRouteDictionary[key];
     }
 }

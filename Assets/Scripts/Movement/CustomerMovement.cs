@@ -1,4 +1,5 @@
 using System;
+using Objects;
 using UnityEngine;
 
 namespace Movement
@@ -10,7 +11,7 @@ namespace Movement
         public static int WAIT_MODE = 1;
         public static int LEAVE_MODE = 2;
     
-        public static readonly double TOLERANCE = 0.0001;
+        public float TOLERANCE = 0.01f;
     
         public float horizontalMoveSpeed = 0f;
 
@@ -30,6 +31,7 @@ namespace Movement
         {
             rBody = gameObject.GetComponent<Rigidbody2D>();
             rBody.velocity = new Vector2(0, 0);
+            movementMode = ENTER_MODE;
         }
 
         // Update is called once per frame
@@ -78,8 +80,8 @@ namespace Movement
 
         private void EnterModeLogic()
         {
-            if (Math.Abs(gameObject.transform.position.x - selectedRoute[selectedRoute.Length - 1, 0]) < TOLERANCE &&
-                Math.Abs(gameObject.transform.position.y - selectedRoute[selectedRoute.Length - 1, 1]) < TOLERANCE)
+            if (Math.Abs(gameObject.transform.position.x - selectedRoute[selectedRoute.Length / 2 - 1, 0]) < TOLERANCE &&
+                Math.Abs(gameObject.transform.position.y - selectedRoute[selectedRoute.Length / 2 - 1, 1]) < TOLERANCE)
             {
                 EnterModeDestinationReachedLogic();
             }
@@ -88,9 +90,11 @@ namespace Movement
 
         private void EnterModeDestinationReachedLogic()
         {
-            routeStep = selectedRoute.Length - 1;
+            routeStep = selectedRoute.Length / 2 - 1;
             movementMode = WAIT_MODE;
             rBody.velocity = new Vector2(0, 0);
+            Customer customer = gameObject.GetComponent<Customer>();
+            customer.sitOnTable();
         }
 
         private void LeaveModeDestinationReachedLogic()
@@ -102,29 +106,33 @@ namespace Movement
         {
             float destinationPointX = selectedRoute[routeStep, 0];
             float destinationPointY = selectedRoute[routeStep, 1];
-        
-            if (Math.Abs(destinationPointX - gameObject.transform.position.x) < TOLERANCE &&
-                Math.Abs(destinationPointY - gameObject.transform.position.y) < TOLERANCE)
+
+            Transform tForm = gameObject.transform;
+            Debug.Log(tForm.position.y);
+
+            if (Math.Abs(destinationPointX - tForm.position.x) <= TOLERANCE &&
+                Math.Abs(destinationPointY - tForm.position.y) <= TOLERANCE)
             {
+                Debug.Log("yeeeeeees");
                 rBody.velocity = new Vector2(0, 0);
-                if (routeStep + routeStepAddition > 0 && routeStepAddition + routeStep < selectedRoute.Length - 1)
+                if (routeStep + routeStepAddition > 0 && routeStepAddition + routeStep < selectedRoute.Length / 2)
                 {
                     routeStep += routeStepAddition;
                 }
             }
-            else if (destinationPointX > gameObject.transform.position.x)
+            else if (destinationPointX > tForm.position.x)
             {
                 rBody.velocity = new Vector2(horizontalMoveSpeed, 0);
             }
-            else if (destinationPointX < gameObject.transform.position.x)
+            else if (destinationPointX < tForm.position.x)
             {
                 rBody.velocity = new Vector2(-horizontalMoveSpeed, 0);
             }
-            else if (destinationPointY > gameObject.transform.position.y)
+            else if (destinationPointY > tForm.position.y)
             {
                 rBody.velocity = new Vector2(0, verticalMoveSpeed);
             }
-            else if (destinationPointY < gameObject.transform.position.y)
+            else if (destinationPointY < tForm.position.y)
             {
                 rBody.velocity = new Vector2(0, -verticalMoveSpeed);
             }

@@ -97,7 +97,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tableNo: 0
-  maxCount: 0
+  maxCount: 4
   customers: []
 --- !u!61 &2540342238996696446
 BoxCollider2D:

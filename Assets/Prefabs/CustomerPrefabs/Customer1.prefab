@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6660378873291077642}
   - component: {fileID: 3421466712135548387}
   - component: {fileID: -6873968549553894392}
+  - component: {fileID: -2836264242614208995}
   m_Layer: 0
   m_Name: Customer1
   m_TagString: Customer
@@ -29,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 2521437395178971254}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 6, y: 6, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -73,7 +74,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 4
   m_Sprite: {fileID: -7028215270257684493, guid: f0244e24cb5721e48b305e774552e2bd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -105,7 +106,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 1
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &3421466712135548387
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -119,7 +120,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.007867234, y: -0.001287967}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -130,7 +131,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.126742, y: 0.1792363}
   m_EdgeRadius: 0
 --- !u!114 &-6873968549553894392
 MonoBehaviour:
@@ -153,3 +154,22 @@ MonoBehaviour:
   levelOfAnger: 0
   timeOfWaitForOrder: 0
   timeOfWaitForFood: 0
+  timeOfLeaveAfterFood: 0
+--- !u!114 &-2836264242614208995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2521437395178971254}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d66e984d1745694459b41d2b99f7ca76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TOLERANCE: 0.05
+  horizontalMoveSpeed: 2
+  verticalMoveSpeed: 2
+  movementMode: 0
+  routeStep: 0
+  rBody: {fileID: 0}

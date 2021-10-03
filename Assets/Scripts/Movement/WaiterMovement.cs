@@ -7,7 +7,7 @@ namespace Movement
     public class WaiterMovement : MonoBehaviour
     {
         public float playerSpeed;
-        public Rigidbody2D rigidbody2D;
+        public Rigidbody2D rBody;
         public SpriteRenderer spriteRenderer;       //Move this to Animation Code when it is created
         private Vector2 _playerDirection;
 
@@ -37,7 +37,7 @@ namespace Movement
 
         void FixedUpdate()
         {
-            rigidbody2D.velocity = new Vector2(_playerDirection.x * playerSpeed, _playerDirection.y * playerSpeed);
+            rBody.velocity = new Vector2(_playerDirection.x * playerSpeed, _playerDirection.y * playerSpeed);
         }
     }
 }

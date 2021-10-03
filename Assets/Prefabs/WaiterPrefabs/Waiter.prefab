@@ -145,5 +145,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerSpeed: 3
-  rigidbody2D: {fileID: 2925364845736913073}
+  rBody: {fileID: 2925364845736913073}
   spriteRenderer: {fileID: 2925364845736913077}
