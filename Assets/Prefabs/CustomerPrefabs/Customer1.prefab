@@ -129,6 +129,7 @@ MonoBehaviour:
   timeOfWaitForOrder: 0
   timeOfWaitForFood: 0
   timeOfLeaveAfterFood: 0
+  hasPointGiven: 0
 --- !u!114 &-2836264242614208995
 MonoBehaviour:
   m_ObjectHideFlags: 0

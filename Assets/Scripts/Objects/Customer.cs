@@ -72,9 +72,8 @@ namespace Objects
         {
             if (hasOrderDelivered)
             {
-                if (!hasPointGiven)
+                if (!hasPointGiven) //This is useless since reputation is dynamic.
                 {
-                    GameObject.Find("RestaurantManager").GetComponent<ReputationManager>().reputation -= levelOfAnger;
                     hasPointGiven = true;
                 }
                 timeOfLeaveAfterFoodTimer += Time.deltaTime;
@@ -151,6 +150,8 @@ namespace Objects
             if (!hasOrderDelivered)
             {
                 levelOfAnger++;
+                GameObject.Find("RestaurantManager").GetComponent<ReputationManager>().reputation--;
+                
             }
         }
 

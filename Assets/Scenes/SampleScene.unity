@@ -1185,7 +1185,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a614d84b756a954d8b7c3b0f0144c4f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  reputation: 0
+  reputation: 100
+  reputationLoseLimit: 30
 --- !u!1 &1043981000
 GameObject:
   m_ObjectHideFlags: 0
