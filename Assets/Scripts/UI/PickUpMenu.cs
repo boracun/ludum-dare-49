@@ -24,6 +24,11 @@ namespace UI
         {
             GameObject buttonToDelete = null;
 
+            if (Waiter.Instance.HoldsItem())
+            {
+                ItemPrepared(Waiter.Instance.DropItem());
+            }
+
             for (int i = 0; i < transform.childCount; i++)
             {
                 buttonToDelete = transform.GetChild(i).gameObject;

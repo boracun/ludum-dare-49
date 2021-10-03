@@ -33,5 +33,10 @@ namespace Objects
             heldItemBubble.SetActive(false);
             return droppedItem;
         }
+
+        public bool HoldsItem()
+        {
+            return (heldItem != null);
+        }
     }
 }
