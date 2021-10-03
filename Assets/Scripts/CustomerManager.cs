@@ -5,6 +5,11 @@ using Objects;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
+public class RouteNode
+{
+    public float[,] route;
+    public GameObject table;
+}
 public class CustomerManager : MonoBehaviour
 {
     public float customerSpawnTimer = 0f;
@@ -96,19 +101,24 @@ public class CustomerManager : MonoBehaviour
         return emptyTables[randomIndex];
     }
 
-    public float[,] GETTableRoute()
+    public RouteNode GETTableRoute()
     {
-        Table table = GETRandomEmptyTable().GetComponent<Table>();
-        if (table == null)
+        GameObject tableObj = GETRandomEmptyTable();
+        if (tableObj == null)
         {
             return null;
         }
+        Table table = tableObj.GetComponent<Table>();
+        RouteNode routeNode = new RouteNode();
+        routeNode.table = tableObj;
+
         List<GameObject> customers = table.customers;
         if (customers.Count >= table.maxCount)
         {
             return null;
         }
         string key = "Table" + table.tableNo + "Route" + (customers.Count + 1);
-        return TableRouteMap.TableRouteDictionary[key];
+        routeNode.route = TableRouteMap.TableRouteDictionary[key];
+        return routeNode;
     }
 }

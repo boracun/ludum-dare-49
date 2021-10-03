@@ -11,7 +11,7 @@ namespace Movement
         public static int WAIT_MODE = 1;
         public static int LEAVE_MODE = 2;
     
-        public float TOLERANCE = 0.01f;
+        public float TOLERANCE = 0.05f;
     
         public float horizontalMoveSpeed = 0f;
 
@@ -24,6 +24,8 @@ namespace Movement
         public int routeStep = 0;
 
         public Rigidbody2D rBody;
+        
+        public GameObject table;
     
     
         // Start is called before the first frame update
@@ -39,10 +41,19 @@ namespace Movement
         {
             if (selectedRoute == null)
             {
-                float[,] route = GameObject.Find("RestaurantManager").GetComponent<CustomerManager>().GETTableRoute();
+                RouteNode routeNode = GameObject.Find("RestaurantManager").GetComponent<CustomerManager>().GETTableRoute();
+                float[,] route = routeNode.route;
                 if (route != null)
                 {
+                    GameObject tableObj = routeNode.table;
                     selectedRoute = route;
+                    tableObj.GetComponent<Table>().customers.Add(gameObject);
+                    table = tableObj;
+                    if (table.GetComponent<Table>().customers.Count == 3 ||
+                        table.GetComponent<Table>().customers.Count == 4)
+                    {
+                        gameObject.GetComponent<SpriteRenderer>().sortingOrder = 2;
+                    }
                 }
             }
             if (selectedRoute != null)
@@ -108,12 +119,10 @@ namespace Movement
             float destinationPointY = selectedRoute[routeStep, 1];
 
             Transform tForm = gameObject.transform;
-            Debug.Log(tForm.position.y);
 
             if (Math.Abs(destinationPointX - tForm.position.x) <= TOLERANCE &&
                 Math.Abs(destinationPointY - tForm.position.y) <= TOLERANCE)
             {
-                Debug.Log("yeeeeeees");
                 rBody.velocity = new Vector2(0, 0);
                 if (routeStep + routeStepAddition > 0 && routeStepAddition + routeStep < selectedRoute.Length / 2)
                 {
@@ -124,7 +133,7 @@ namespace Movement
             {
                 rBody.velocity = new Vector2(horizontalMoveSpeed, 0);
             }
-            else if (destinationPointX < tForm.position.x)
+            else if (destinationPointX < tForm.position.x - TOLERANCE)
             {
                 rBody.velocity = new Vector2(-horizontalMoveSpeed, 0);
             }
