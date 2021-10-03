@@ -11,15 +11,21 @@ public class TableCollision : MonoBehaviour
     {
         if (other.collider.CompareTag("Waiter"))
         {
+            Waiter waiter = Waiter.Instance;
             List<GameObject> customers = gameObject.GetComponent<Table>().customers;
             for (int i = 0; i < customers.Count; i++)
             {
                 Customer customer = customers[i].GetComponent<Customer>();
                 CustomerMovement customerMovement = customers[i].GetComponent<CustomerMovement>();
-                if (customerMovement.movementMode == CustomerMovement.WAIT_MODE)
+                if (customerMovement.movementMode == CustomerMovement.WAIT_MODE && customer.order != null)
                 {
                     customer.hasOrdered = true;
-                    //if (customer.)
+                    if (waiter.heldItem != null &&
+                        customer.order.menuItemName.Equals(waiter.heldItem.menuItemName) )
+                    {
+                        customer.hasOrderDelivered = true;
+                        waiter.DropItem();
+                    }
                 }
             }
         }

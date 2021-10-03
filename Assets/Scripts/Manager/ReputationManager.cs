@@ -1,19 +1,20 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class ReputationManager : MonoBehaviour
+namespace Manager
 {
-    public float reputation = 100f;
-    public float reputationLoseLimit = 30f;
-
-    private void Update()
+    public class ReputationManager : MonoBehaviour
     {
-        if (reputation < reputationLoseLimit)
+        public float reputation = 100f;
+        public float reputationLoseLimit = 30f;
+
+        private void Update()
         {
-            SceneManager.LoadScene("Ending");
+            Debug.Log(reputation);
+            if (reputation < reputationLoseLimit)
+            {
+                SceneManager.LoadScene("Ending");
+            }
         }
     }
 }
