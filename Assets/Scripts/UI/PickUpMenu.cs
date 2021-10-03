@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using Objects;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -18,10 +19,14 @@ namespace UI
             }
         }
 
-        //TODO Check if the waiter already has an item
         private void ItemPickedUp(MenuItem menuItem)
         {
             GameObject buttonToDelete = null;
+
+            if (Waiter.Instance.HoldsItem())
+            {
+                ItemPrepared(Waiter.Instance.DropItem());
+            }
 
             for (int i = 0; i < transform.childCount; i++)
             {
@@ -41,6 +46,8 @@ namespace UI
             {
                 Destroy(buttonToDelete);
             }
+            
+            Waiter.Instance.PickUpItem(menuItem);
         }
 
         public void ItemPrepared(MenuItem menuItem)
