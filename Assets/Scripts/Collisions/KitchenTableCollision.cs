@@ -12,8 +12,10 @@ namespace Collisions
         {
             if (other.collider.tag.Equals("Waiter"))
             {
-                orderPanel.gameObject.SetActive(true);
-                pickUpPanel.gameObject.SetActive(true);
+                orderPanel.gameObject.GetComponent<CanvasGroup>().alpha = 1;
+                orderPanel.gameObject.GetComponent<CanvasGroup>().interactable = true;
+                pickUpPanel.gameObject.GetComponent<CanvasGroup>().alpha = 1;
+                pickUpPanel.gameObject.GetComponent<CanvasGroup>().interactable = true;
             }
         }
 
@@ -21,8 +23,10 @@ namespace Collisions
         {
             if (other.collider.tag.Equals("Waiter"))
             {
-                orderPanel.gameObject.SetActive(false);
-                pickUpPanel.gameObject.SetActive(false);
+                orderPanel.gameObject.GetComponent<CanvasGroup>().alpha = 0;
+                orderPanel.gameObject.GetComponent<CanvasGroup>().interactable = false;
+                pickUpPanel.gameObject.GetComponent<CanvasGroup>().alpha = 0;
+                pickUpPanel.gameObject.GetComponent<CanvasGroup>().interactable = false;
             }
         }
     }
