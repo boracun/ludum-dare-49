@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: Tea
   m_EditorClassIdentifier: 
   menuItemName: Tea
-  menuItemSprite: {fileID: 0}
+  preparationTime: 12
+  menuItemSprite: {fileID: -8121656024902908112, guid: 8f85083a9ecac574b86027d7fbee1061, type: 3}
