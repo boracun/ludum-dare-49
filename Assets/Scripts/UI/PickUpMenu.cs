@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using Objects;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -41,6 +42,8 @@ namespace UI
             {
                 Destroy(buttonToDelete);
             }
+            
+            Waiter.Instance.PickUpItem(menuItem);
         }
 
         public void ItemPrepared(MenuItem menuItem)
