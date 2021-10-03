@@ -15,7 +15,7 @@ public class Kitchen : MonoBehaviour
     {
         Instance = this;
         orderedItems = new Queue<MenuItem>();
-        readyItems = new List<MenuItem>();        //TODO commented for testing, remove comments n the final product
+        readyItems = new List<MenuItem>();
     }
 
     private void Update()

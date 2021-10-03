@@ -19,7 +19,6 @@ namespace UI
             }
         }
 
-        //TODO Check if the waiter already has an item
         private void ItemPickedUp(MenuItem menuItem)
         {
             GameObject buttonToDelete = null;
