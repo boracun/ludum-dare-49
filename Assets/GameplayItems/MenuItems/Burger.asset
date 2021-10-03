@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: Burger
   m_EditorClassIdentifier: 
   menuItemName: Burger
+  preparationTime: 15
   menuItemSprite: {fileID: -7185533250051746955, guid: 8f85083a9ecac574b86027d7fbee1061, type: 3}

@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: Watermelon
   m_EditorClassIdentifier: 
   menuItemName: Watermelon
+  preparationTime: 10
   menuItemSprite: {fileID: 1937470944512538701, guid: 8f85083a9ecac574b86027d7fbee1061, type: 3}

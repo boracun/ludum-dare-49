@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: Beer
   m_EditorClassIdentifier: 
   menuItemName: Beer
+  preparationTime: 7.5
   menuItemSprite: {fileID: -9065077214836840045, guid: 8f85083a9ecac574b86027d7fbee1061, type: 3}

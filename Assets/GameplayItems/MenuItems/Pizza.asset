@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: Pizza
   m_EditorClassIdentifier: 
   menuItemName: Pizza
+  preparationTime: 20
   menuItemSprite: {fileID: -2783807373574423755, guid: 8f85083a9ecac574b86027d7fbee1061, type: 3}
