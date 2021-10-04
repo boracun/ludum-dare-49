@@ -77,6 +77,8 @@ namespace Movement
                 sr.flipX = true;
             else if (rBody.velocity.x > 0)
                 sr.flipX = false;
+
+            if (movementMode == CustomerMovement.WAIT_MODE) sr.flipX = false;
         }
 
         private void WaitModeLogic()
