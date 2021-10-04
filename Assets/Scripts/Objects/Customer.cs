@@ -9,7 +9,7 @@ namespace Objects
 {
     public class Customer : MonoBehaviour
     {
-        public const float BASE_ORDER_WAIT_TIME_LIMIT = 20f;
+        public const float BASE_ORDER_WAIT_TIME_LIMIT = 5f;
         
         public const float BASE_FOOD_WAIT_TIME_LIMIT = 20f;
 
