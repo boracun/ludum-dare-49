@@ -8,7 +8,7 @@ namespace Manager
     public class ReputationManager : MonoBehaviour
     {
         public float reputation = 100f;
-        public float reputationLoseLimit = 30f;
+        public float reputationLoseLimit = 0f;
         public GameObject reputationBar;
         private GameObject reputationBarProgress;
         public Text reputationBarText;
