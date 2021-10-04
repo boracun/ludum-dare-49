@@ -102,6 +102,9 @@ namespace Movement
                 previousKey = KeyCode.S;
                 previousTime = Time.time;
             }
+
+            if (Waiter.Instance.heldItem == null)
+                imbalanceLevel = 0;
             
             if (imbalanceLevel >= MAX_IMBALANCE_LEVEL)
             {
