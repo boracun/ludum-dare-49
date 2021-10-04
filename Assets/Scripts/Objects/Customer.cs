@@ -43,6 +43,7 @@ namespace Objects
 
         public bool hasPointGiven;
 
+        public GameObject orderBubble;
 
         public void Start()
         {
@@ -72,6 +73,7 @@ namespace Objects
         {
             if (hasOrderDelivered)
             {
+                orderBubble.SetActive(false);
                 if (!hasPointGiven) //This is useless since reputation is dynamic.
                 {
                     hasPointGiven = true;
