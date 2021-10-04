@@ -5878,6 +5878,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 407503990241971344, guid: fce34a3204a33c640b23981ea0d31bc7, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2925364845736912970, guid: fce34a3204a33c640b23981ea0d31bc7, type: 3}
       propertyPath: m_Name
       value: Waiter
@@ -5932,6 +5936,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2925364845736913078, guid: fce34a3204a33c640b23981ea0d31bc7, type: 3}
       propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5243469267171657664, guid: fce34a3204a33c640b23981ea0d31bc7, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5243469267171657664, guid: fce34a3204a33c640b23981ea0d31bc7, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5243469267171657664, guid: fce34a3204a33c640b23981ea0d31bc7, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6604296823187503202, guid: fce34a3204a33c640b23981ea0d31bc7, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8289149966567188001, guid: fce34a3204a33c640b23981ea0d31bc7, type: 3}
+      propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
