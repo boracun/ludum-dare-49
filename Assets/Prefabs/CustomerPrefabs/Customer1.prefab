@@ -163,6 +163,7 @@ MonoBehaviour:
   timeOfWaitForFood: 0
   timeOfLeaveAfterFood: 0
   hasPointGiven: 0
+  orderBubble: {fileID: 1923169967294061568}
 --- !u!114 &-2836264242614208995
 MonoBehaviour:
   m_ObjectHideFlags: 0
