@@ -89,7 +89,7 @@ namespace Objects
                     customerMovement.movementMode = CustomerMovement.LEAVE_MODE;
                     customerMovement.table.GetComponent<Table>().RemoveCustomer(o);
                     
-                    timeOfLeaveAfterFoodTimer = 0f;
+                    timeOfLeaveAfterFoodTimer = 10f;
                 }
             }
         }

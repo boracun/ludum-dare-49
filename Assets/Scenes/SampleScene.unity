@@ -1605,7 +1605,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   customerSpawnTimer: 0
-  customerSpawnTimeLimit: 0
+  customerSpawnTimeLimit: 10
   customer1Prefab: {fileID: 2521437395178971254, guid: 628e50c14c7a98147b7c7e6d8c90c32d, type: 3}
   customer2Prefab: {fileID: 5159276290017112721, guid: f50dca795bca2f44aa48f8e6b43745a8, type: 3}
   customer3Prefab: {fileID: 8209086981570670535, guid: 58fd262cd0118944e90407d7b4f0775b, type: 3}
