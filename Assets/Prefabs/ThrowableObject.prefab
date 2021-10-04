@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 4262912482708440560}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -10.17, y: -4.06, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 3, y: 3, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -99,7 +99,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   waiterTransform: {fileID: 0}
   rBody: {fileID: 0}
-  speed: 2
+  speed: 4
 --- !u!50 &5362204021539878070
 Rigidbody2D:
   serializedVersion: 4
@@ -131,7 +131,7 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.0029392242, y: -0.006629944}
