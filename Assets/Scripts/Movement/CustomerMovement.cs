@@ -5,7 +5,6 @@ using UnityEngine;
 namespace Movement
 {
     public class CustomerMovement : MonoBehaviour
-
     {
         public static int ENTER_MODE = 0;
         public static int WAIT_MODE = 1;
@@ -18,6 +17,8 @@ namespace Movement
         public float verticalMoveSpeed = 0f;
 
         public int movementMode = ENTER_MODE;
+
+        public SpriteRenderer sr;
 
         public float[,] selectedRoute = null;
 
@@ -70,8 +71,12 @@ namespace Movement
                 {
                     EnterModeLogic();
                 }
-            
             }
+
+            if (rBody.velocity.x < 0)
+                sr.flipX = true;
+            else if (rBody.velocity.x > 0)
+                sr.flipX = false;
         }
 
         private void WaitModeLogic()

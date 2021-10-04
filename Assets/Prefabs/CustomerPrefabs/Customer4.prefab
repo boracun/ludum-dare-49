@@ -230,6 +230,7 @@ MonoBehaviour:
   horizontalMoveSpeed: 2
   verticalMoveSpeed: 2
   movementMode: 0
+  sr: {fileID: 4656219428715600065}
   routeStep: 0
   rBody: {fileID: 0}
   table: {fileID: 0}
