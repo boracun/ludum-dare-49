@@ -246,6 +246,7 @@ MonoBehaviour:
   timeOfLeaveAfterFood: 0
   hasPointGiven: 0
   orderBubble: {fileID: 4623407522266953472}
+  throwableObjectPrefab: {fileID: 4262912482708440560, guid: ac8a839af9cc76e4bb967468213a60f2, type: 3}
 --- !u!114 &4488185845242910181
 MonoBehaviour:
   m_ObjectHideFlags: 0

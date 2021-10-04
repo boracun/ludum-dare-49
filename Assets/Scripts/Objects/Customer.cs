@@ -1,4 +1,5 @@
 using System;
+using Collisions;
 using Manager;
 using Movement;
 using UnityEditor;
@@ -44,6 +45,8 @@ namespace Objects
         public bool hasPointGiven;
 
         public GameObject orderBubble;
+
+        public GameObject throwableObjectPrefab;
 
         public void Start()
         {
@@ -156,6 +159,10 @@ namespace Objects
                 levelOfAnger++;
                 GameObject.Find("RestaurantManager").GetComponent<ReputationManager>().reputation--;
                 SetRedTint();
+                if (levelOfAnger >= LOAController.FIRST_THROW_LEVEL)
+                {
+                    Instantiate(throwableObjectPrefab, transform.localPosition, Quaternion.identity);
+                }
             }
         }
 
