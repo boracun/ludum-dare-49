@@ -155,7 +155,7 @@ namespace Objects
             {
                 levelOfAnger++;
                 GameObject.Find("RestaurantManager").GetComponent<ReputationManager>().reputation--;
-                
+                SetRedTint();
             }
         }
 
@@ -167,6 +167,14 @@ namespace Objects
                 hasOrdered = false;
                 hasOrderDelivered = false;
             }
+        }
+
+        private void SetRedTint()
+        {
+            if (levelOfAnger == 0 || levelOfAnger >= LOAController.FIRST_THROW_LEVEL)
+                return;
+            float angerPercentage = levelOfAnger / LOAController.FIRST_THROW_LEVEL;
+            transform.GetComponent<SpriteRenderer>().color = new Color(1f, 1f - angerPercentage, 1f - angerPercentage);
         }
     }
 }

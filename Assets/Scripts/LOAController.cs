@@ -9,4 +9,6 @@ public class LOAController
     
     public const float foodWaitGetAngeryTimeInterval = 10f;
     public const float foodWaitIncrementAngerOffsetTime = 20f;
+
+    public const int FIRST_THROW_LEVEL = 4;
 }
