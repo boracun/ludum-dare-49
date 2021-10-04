@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1410730959423216964}
   - component: {fileID: 5362204021539878070}
   - component: {fileID: 6471758039964865789}
+  - component: {fileID: -8525918609034922195}
   m_Layer: 0
   m_Name: ThrowableObject
   m_TagString: Untagged
@@ -137,3 +138,15 @@ CircleCollider2D:
   m_Offset: {x: 0.0029392242, y: -0.006629944}
   serializedVersion: 2
   m_Radius: 0.08683777
+--- !u!114 &-8525918609034922195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4262912482708440560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29e5230690556cd4c81fb7c4614707ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
