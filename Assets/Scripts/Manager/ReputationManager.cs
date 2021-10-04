@@ -25,7 +25,7 @@ namespace Manager
             UpdateReputationBar();
             if (reputation < reputationLoseLimit)
             {
-                SceneManager.LoadScene("Ending");
+                SceneManager.LoadScene("LoseScreen");
             }
         }
 
