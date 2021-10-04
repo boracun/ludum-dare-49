@@ -237,13 +237,13 @@ MonoBehaviour:
   hasSat: 0
   hasOrdered: 0
   hasOrderDelivered: 0
-  orderWaitTimeLimit: 0
-  foodWaitTimeLimit: 0
+  orderWaitTimeLimit: 20
+  foodWaitTimeLimit: 20
   order: {fileID: 0}
   levelOfAnger: 0
   timeOfWaitForOrder: 0
   timeOfWaitForFood: 0
-  timeOfLeaveAfterFood: 0
+  timeOfLeaveAfterFood: 10
   hasPointGiven: 0
   orderBubble: {fileID: 260842306664030097}
   throwableObjectPrefab: {fileID: 4262912482708440560, guid: ac8a839af9cc76e4bb967468213a60f2, type: 3}

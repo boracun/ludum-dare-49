@@ -57,11 +57,8 @@ namespace Objects
             levelOfAnger = 0;
             orderWaitTimeLimit = GETRandomOrderWaitTimeLimit();
             foodWaitTimeLimit = GETRandomFoodWaitTimeLimit();
-            timeOfWaitForOrder = 0f;
-            timeOfWaitForFood = 0f;
             timeOfWaitForOrderIntervalTimer = 0f;
             timeOfWaitForFoodIntervalTimer = 0f;
-            timeOfLeaveAfterFood = 0f;
             timeOfLeaveAfterFoodTimer = 0f;
         }
 
