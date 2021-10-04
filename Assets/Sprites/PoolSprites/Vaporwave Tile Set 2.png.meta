@@ -1,0 +1,4044 @@
+fileFormatVersion: 2
+guid: f613278b50571784a92a68283fff624f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7154828056844575748
+    second: Vaporwave Tile Set 2_0
+  - first:
+      213: -7377587768099086690
+    second: Vaporwave Tile Set 2_1
+  - first:
+      213: 3722286063719815407
+    second: Vaporwave Tile Set 2_2
+  - first:
+      213: 4421250533442410740
+    second: Vaporwave Tile Set 2_3
+  - first:
+      213: 5317125700476490223
+    second: Vaporwave Tile Set 2_4
+  - first:
+      213: 6246856422693152570
+    second: Vaporwave Tile Set 2_5
+  - first:
+      213: -2985934901250467395
+    second: Vaporwave Tile Set 2_6
+  - first:
+      213: -2040569670075056444
+    second: Vaporwave Tile Set 2_7
+  - first:
+      213: -7906831516511777079
+    second: Vaporwave Tile Set 2_8
+  - first:
+      213: 8778712392743450808
+    second: Vaporwave Tile Set 2_9
+  - first:
+      213: 6363184174920616163
+    second: Vaporwave Tile Set 2_10
+  - first:
+      213: 8506785616927564532
+    second: Vaporwave Tile Set 2_11
+  - first:
+      213: -3621407841137428544
+    second: Vaporwave Tile Set 2_12
+  - first:
+      213: -3161135508570940946
+    second: Vaporwave Tile Set 2_13
+  - first:
+      213: -493620720916341614
+    second: Vaporwave Tile Set 2_14
+  - first:
+      213: -525516665333343172
+    second: Vaporwave Tile Set 2_15
+  - first:
+      213: -3450567813860818602
+    second: Vaporwave Tile Set 2_16
+  - first:
+      213: -3772980933870987688
+    second: Vaporwave Tile Set 2_17
+  - first:
+      213: 3273727004898211654
+    second: Vaporwave Tile Set 2_18
+  - first:
+      213: -7289031931046385682
+    second: Vaporwave Tile Set 2_19
+  - first:
+      213: 4251280517408974061
+    second: Vaporwave Tile Set 2_20
+  - first:
+      213: -1968688576473591968
+    second: Vaporwave Tile Set 2_21
+  - first:
+      213: -7686575033507739080
+    second: Vaporwave Tile Set 2_22
+  - first:
+      213: 5325791678413668731
+    second: Vaporwave Tile Set 2_23
+  - first:
+      213: 5292255362450382795
+    second: Vaporwave Tile Set 2_24
+  - first:
+      213: -679763336853150351
+    second: Vaporwave Tile Set 2_25
+  - first:
+      213: -8788496538945704558
+    second: Vaporwave Tile Set 2_26
+  - first:
+      213: -7434836683099691645
+    second: Vaporwave Tile Set 2_27
+  - first:
+      213: -2822294399176281507
+    second: Vaporwave Tile Set 2_28
+  - first:
+      213: 8519283646420708939
+    second: Vaporwave Tile Set 2_29
+  - first:
+      213: -6284253092583738629
+    second: Vaporwave Tile Set 2_30
+  - first:
+      213: 87905154032061286
+    second: Vaporwave Tile Set 2_31
+  - first:
+      213: -2958670571156230993
+    second: Vaporwave Tile Set 2_32
+  - first:
+      213: 2216829764420970663
+    second: Vaporwave Tile Set 2_33
+  - first:
+      213: -649379718937592184
+    second: Vaporwave Tile Set 2_34
+  - first:
+      213: 7066182865774216992
+    second: Vaporwave Tile Set 2_35
+  - first:
+      213: -4193661217725814107
+    second: Vaporwave Tile Set 2_36
+  - first:
+      213: 6598245830285637677
+    second: Vaporwave Tile Set 2_37
+  - first:
+      213: -8427818989589660998
+    second: Vaporwave Tile Set 2_38
+  - first:
+      213: 5048332040893794033
+    second: Vaporwave Tile Set 2_39
+  - first:
+      213: 719773726213460799
+    second: Vaporwave Tile Set 2_40
+  - first:
+      213: 2507529975017567178
+    second: Vaporwave Tile Set 2_41
+  - first:
+      213: 1611917486457760127
+    second: Vaporwave Tile Set 2_42
+  - first:
+      213: 7201554325639372850
+    second: Vaporwave Tile Set 2_43
+  - first:
+      213: 4819398620941241582
+    second: Vaporwave Tile Set 2_44
+  - first:
+      213: -2716924228795369021
+    second: Vaporwave Tile Set 2_45
+  - first:
+      213: -2292189740420194694
+    second: Vaporwave Tile Set 2_46
+  - first:
+      213: 4319200316943681118
+    second: Vaporwave Tile Set 2_47
+  - first:
+      213: -8307065496685575549
+    second: Vaporwave Tile Set 2_48
+  - first:
+      213: 4628683406892781303
+    second: Vaporwave Tile Set 2_49
+  - first:
+      213: 7343212780929981039
+    second: Vaporwave Tile Set 2_50
+  - first:
+      213: 1612131210195429367
+    second: Vaporwave Tile Set 2_51
+  - first:
+      213: -5807365517851264114
+    second: Vaporwave Tile Set 2_52
+  - first:
+      213: 980173608672220683
+    second: Vaporwave Tile Set 2_53
+  - first:
+      213: 5191636150920811201
+    second: Vaporwave Tile Set 2_54
+  - first:
+      213: 3002178585752751067
+    second: Vaporwave Tile Set 2_55
+  - first:
+      213: -8517548223341254954
+    second: Vaporwave Tile Set 2_56
+  - first:
+      213: 7459598745035346622
+    second: Vaporwave Tile Set 2_57
+  - first:
+      213: 5364823350243165270
+    second: Vaporwave Tile Set 2_58
+  - first:
+      213: -6208079526724895131
+    second: Vaporwave Tile Set 2_59
+  - first:
+      213: 4901400330553740738
+    second: Vaporwave Tile Set 2_60
+  - first:
+      213: -83358483433258379
+    second: Vaporwave Tile Set 2_61
+  - first:
+      213: -7552199813499722377
+    second: Vaporwave Tile Set 2_62
+  - first:
+      213: 4572474196830832417
+    second: Vaporwave Tile Set 2_63
+  - first:
+      213: 3931514434106174639
+    second: Vaporwave Tile Set 2_64
+  - first:
+      213: -7410185389977251440
+    second: Vaporwave Tile Set 2_65
+  - first:
+      213: 6120744202673801712
+    second: Vaporwave Tile Set 2_66
+  - first:
+      213: -500288688236018164
+    second: Vaporwave Tile Set 2_67
+  - first:
+      213: -179916088641188596
+    second: Vaporwave Tile Set 2_68
+  - first:
+      213: 9147281376938732187
+    second: Vaporwave Tile Set 2_69
+  - first:
+      213: -6959621726377943414
+    second: Vaporwave Tile Set 2_70
+  - first:
+      213: 3997930827429230516
+    second: Vaporwave Tile Set 2_71
+  - first:
+      213: 7264772138965734410
+    second: Vaporwave Tile Set 2_72
+  - first:
+      213: -5236618887730366500
+    second: Vaporwave Tile Set 2_73
+  - first:
+      213: 5692807284629835924
+    second: Vaporwave Tile Set 2_74
+  - first:
+      213: -3628673972064666703
+    second: Vaporwave Tile Set 2_75
+  - first:
+      213: 1692491164805304459
+    second: Vaporwave Tile Set 2_76
+  - first:
+      213: -5116738715352029131
+    second: Vaporwave Tile Set 2_77
+  - first:
+      213: -33910871353804586
+    second: Vaporwave Tile Set 2_78
+  - first:
+      213: 6869703623031080234
+    second: Vaporwave Tile Set 2_79
+  - first:
+      213: -8198907850524041985
+    second: Vaporwave Tile Set 2_80
+  - first:
+      213: 1744869156022867612
+    second: Vaporwave Tile Set 2_81
+  - first:
+      213: 2445042687034488177
+    second: Vaporwave Tile Set 2_82
+  - first:
+      213: -4433558039816396072
+    second: Vaporwave Tile Set 2_83
+  - first:
+      213: 6874358224257338850
+    second: Vaporwave Tile Set 2_84
+  - first:
+      213: -1722436882230583034
+    second: Vaporwave Tile Set 2_85
+  - first:
+      213: 5577030701387809848
+    second: Vaporwave Tile Set 2_86
+  - first:
+      213: -2894232914931072610
+    second: Vaporwave Tile Set 2_87
+  - first:
+      213: -1395283469346446377
+    second: Vaporwave Tile Set 2_88
+  - first:
+      213: -7671683349991609929
+    second: Vaporwave Tile Set 2_89
+  - first:
+      213: 4839009910745313398
+    second: Vaporwave Tile Set 2_90
+  - first:
+      213: -821067302661702337
+    second: Vaporwave Tile Set 2_91
+  - first:
+      213: 3426305213238955693
+    second: Vaporwave Tile Set 2_92
+  - first:
+      213: -5900780565877617866
+    second: Vaporwave Tile Set 2_93
+  - first:
+      213: -6567342150819828563
+    second: Vaporwave Tile Set 2_94
+  - first:
+      213: -7652391162026417465
+    second: Vaporwave Tile Set 2_95
+  - first:
+      213: 8765091557265497974
+    second: Vaporwave Tile Set 2_96
+  - first:
+      213: 538943046199110142
+    second: Vaporwave Tile Set 2_97
+  - first:
+      213: -2447648813386656304
+    second: Vaporwave Tile Set 2_98
+  - first:
+      213: -2770083070072110567
+    second: Vaporwave Tile Set 2_99
+  - first:
+      213: -4968272950961123529
+    second: Vaporwave Tile Set 2_100
+  - first:
+      213: 7284597634767817162
+    second: Vaporwave Tile Set 2_101
+  - first:
+      213: -4526865700952478974
+    second: Vaporwave Tile Set 2_102
+  - first:
+      213: -2630016628588298546
+    second: Vaporwave Tile Set 2_103
+  - first:
+      213: 1505107715368060253
+    second: Vaporwave Tile Set 2_104
+  - first:
+      213: -5922275660346160568
+    second: Vaporwave Tile Set 2_105
+  - first:
+      213: 2981017332953085928
+    second: Vaporwave Tile Set 2_106
+  - first:
+      213: 509712739647598904
+    second: Vaporwave Tile Set 2_107
+  - first:
+      213: -3905707750335845334
+    second: Vaporwave Tile Set 2_108
+  - first:
+      213: -4676431538534841060
+    second: Vaporwave Tile Set 2_109
+  - first:
+      213: -866929520057922000
+    second: Vaporwave Tile Set 2_110
+  - first:
+      213: 2361720511595674532
+    second: Vaporwave Tile Set 2_111
+  - first:
+      213: -6289505231910198589
+    second: Vaporwave Tile Set 2_112
+  - first:
+      213: 6213077005167165816
+    second: Vaporwave Tile Set 2_113
+  - first:
+      213: -7115413560644100523
+    second: Vaporwave Tile Set 2_114
+  - first:
+      213: -3160607113238546172
+    second: Vaporwave Tile Set 2_115
+  - first:
+      213: 2432833243023059223
+    second: Vaporwave Tile Set 2_116
+  - first:
+      213: -6600365472434950752
+    second: Vaporwave Tile Set 2_117
+  - first:
+      213: -8734847955386057172
+    second: Vaporwave Tile Set 2_118
+  - first:
+      213: 833659046167612984
+    second: Vaporwave Tile Set 2_119
+  - first:
+      213: -6949664994897284835
+    second: Vaporwave Tile Set 2_120
+  - first:
+      213: -1314570347662784426
+    second: Vaporwave Tile Set 2_121
+  - first:
+      213: -2787525057269921992
+    second: Vaporwave Tile Set 2_122
+  - first:
+      213: 6136048147086557025
+    second: Vaporwave Tile Set 2_123
+  - first:
+      213: 1202131234922387591
+    second: Vaporwave Tile Set 2_124
+  - first:
+      213: 2282203407510600055
+    second: Vaporwave Tile Set 2_125
+  - first:
+      213: -1451666575217904153
+    second: Vaporwave Tile Set 2_126
+  - first:
+      213: 7089291825663006173
+    second: Vaporwave Tile Set 2_127
+  - first:
+      213: 3507449617452280609
+    second: Vaporwave Tile Set 2_128
+  - first:
+      213: 363714792076971297
+    second: Vaporwave Tile Set 2_129
+  - first:
+      213: -6171462282289098551
+    second: Vaporwave Tile Set 2_130
+  - first:
+      213: -2968920036808219662
+    second: Vaporwave Tile Set 2_131
+  - first:
+      213: -1554799555230883547
+    second: Vaporwave Tile Set 2_132
+  - first:
+      213: 7950884196982883581
+    second: Vaporwave Tile Set 2_133
+  - first:
+      213: -7053715906978412922
+    second: Vaporwave Tile Set 2_134
+  - first:
+      213: -8693150634438108274
+    second: Vaporwave Tile Set 2_135
+  - first:
+      213: 5782846829870119041
+    second: Vaporwave Tile Set 2_136
+  - first:
+      213: -3392518553605275071
+    second: Vaporwave Tile Set 2_137
+  - first:
+      213: 3010894610048306804
+    second: Vaporwave Tile Set 2_138
+  - first:
+      213: -8154479521357293314
+    second: Vaporwave Tile Set 2_139
+  - first:
+      213: 569854573660624956
+    second: Vaporwave Tile Set 2_140
+  - first:
+      213: 1987895549876140589
+    second: Vaporwave Tile Set 2_141
+  - first:
+      213: 3057054925998006900
+    second: Vaporwave Tile Set 2_142
+  - first:
+      213: 1896971555011969689
+    second: Vaporwave Tile Set 2_143
+  - first:
+      213: -7634992976076734269
+    second: Vaporwave Tile Set 2_144
+  - first:
+      213: 4984194266079484114
+    second: Vaporwave Tile Set 2_145
+  - first:
+      213: -3376180174061744996
+    second: Vaporwave Tile Set 2_146
+  - first:
+      213: 2113681280487003837
+    second: Vaporwave Tile Set 2_147
+  - first:
+      213: 6941019734390999993
+    second: Vaporwave Tile Set 2_148
+  - first:
+      213: -3812251269921576910
+    second: Vaporwave Tile Set 2_149
+  - first:
+      213: 7484931913463644252
+    second: Vaporwave Tile Set 2_150
+  - first:
+      213: -7727690409120657397
+    second: Vaporwave Tile Set 2_151
+  - first:
+      213: -1047577821312675252
+    second: Vaporwave Tile Set 2_152
+  - first:
+      213: 5144490820869481726
+    second: Vaporwave Tile Set 2_153
+  - first:
+      213: -4379520950611096695
+    second: Vaporwave Tile Set 2_154
+  - first:
+      213: 7380354560269045259
+    second: Vaporwave Tile Set 2_155
+  - first:
+      213: -6726023322443165187
+    second: Vaporwave Tile Set 2_156
+  - first:
+      213: 6622996661566236806
+    second: Vaporwave Tile Set 2_157
+  - first:
+      213: -2159743012465386684
+    second: Vaporwave Tile Set 2_158
+  - first:
+      213: -8179062248425350105
+    second: Vaporwave Tile Set 2_159
+  - first:
+      213: -4397541528801464923
+    second: Vaporwave Tile Set 2_160
+  - first:
+      213: 1502470677488416034
+    second: Vaporwave Tile Set 2_161
+  - first:
+      213: 4086152490852167021
+    second: Vaporwave Tile Set 2_162
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 564
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4042835b53e0b4360800000000000000
+      internalID: 7154828056844575748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_1
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 564
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9edf27530b8d9990800000000000000
+      internalID: -7377587768099086690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_2
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 559
+        width: 34
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe81864147738a330800000000000000
+      internalID: 3722286063719815407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_3
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 559
+        width: 34
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f857d47fef6b5d30800000000000000
+      internalID: 4421250533442410740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_4
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 564
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe1500b37a93ac940800000000000000
+      internalID: 5317125700476490223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_5
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 564
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a372e75b1da41b650800000000000000
+      internalID: 6246856422693152570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_6
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 559
+        width: 34
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db956880704df86d0800000000000000
+      internalID: -2985934901250467395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_7
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 559
+        width: 34
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ce7dbb42b07ea3e0800000000000000
+      internalID: -2040569670075056444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_8
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 564
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cec37fb0aa454290800000000000000
+      internalID: -7906831516511777079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_9
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 564
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b8facad86044d970800000000000000
+      internalID: 8778712392743450808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_10
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 559
+        width: 34
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e8c7822b429e4850800000000000000
+      internalID: 6363184174920616163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_11
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 559
+        width: 34
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f2ae5d927c2e0670800000000000000
+      internalID: 8506785616927564532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_12
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 534
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c7703a61cc2ebdc0800000000000000
+      internalID: -3621407841137428544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_13
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 522
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee951ccd0046124d0800000000000000
+      internalID: -3161135508570940946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_14
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 512
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29c5204d19e4629f0800000000000000
+      internalID: -493620720916341614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_15
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 512
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3c124f806df4b8f0800000000000000
+      internalID: -525516665333343172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_16
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 534
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6510e6deade1d10d0800000000000000
+      internalID: -3450567813860818602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_17
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 522
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8565c4ca4dda3abc0800000000000000
+      internalID: -3772980933870987688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_18
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 512
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 647bf82bd5d9e6d20800000000000000
+      internalID: 3273727004898211654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_19
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 512
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee72081e31828da90800000000000000
+      internalID: -7289031931046385682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_20
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 534
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de463b83b159ffa30800000000000000
+      internalID: 4251280517408974061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_21
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 522
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06f0ce59b20dda4e0800000000000000
+      internalID: -1968688576473591968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_22
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83a82647bbcc35590800000000000000
+      internalID: -7686575033507739080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_23
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 512
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b710493705309e940800000000000000
+      internalID: 5325791678413668731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_24
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 504
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcfd28b663ed17940800000000000000
+      internalID: 5292255362450382795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_25
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 504
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 175a88fb8def096f0800000000000000
+      internalID: -679763336853150351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_26
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 504
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29d246616fcf80680800000000000000
+      internalID: -8788496538945704558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_27
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 455
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 385accc9d6722d890800000000000000
+      internalID: -7434836683099691645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_28
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 450
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d52f585723235d8d0800000000000000
+      internalID: -2822294399176281507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_29
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 450
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4e63bdd6539a3670800000000000000
+      internalID: 8519283646420708939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_30
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 455
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf275e19b19d9c8a0800000000000000
+      internalID: -6284253092583738629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_31
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 450
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66bc108954d483100800000000000000
+      internalID: 87905154032061286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_32
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 450
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faca4de8ac0b0f6d0800000000000000
+      internalID: -2958670571156230993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_33
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 455
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a823dbece2c3ce10800000000000000
+      internalID: 2216829764420970663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_34
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 450
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88eb1601690fcf6f0800000000000000
+      internalID: -649379718937592184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_35
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 450
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0278c60d0ef101260800000000000000
+      internalID: 7066182865774216992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_36
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 407
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aaee19675f1dc5c0800000000000000
+      internalID: -4193661217725814107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_37
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 402
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d28b0e6af9da19b50800000000000000
+      internalID: 6598245830285637677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_38
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 402
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aba773e084f5a0b80800000000000000
+      internalID: -8427818989589660998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_39
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 407
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f682b57e374f0640800000000000000
+      internalID: 5048332040893794033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_40
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 402
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f33dc95f3662df900800000000000000
+      internalID: 719773726213460799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_41
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 402
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac3f0901a398cc220800000000000000
+      internalID: 2507529975017567178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_42
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 407
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f792e83e96eae5610800000000000000
+      internalID: 1611917486457760127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_43
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 402
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 230a962f08f01f360800000000000000
+      internalID: 7201554325639372850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_44
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 402
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eecc530f281f1e240800000000000000
+      internalID: 4819398620941241582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_45
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 391
+        width: 34
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c9fffc0fcb8b4ad0800000000000000
+      internalID: -2716924228795369021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_46
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 386
+        width: 34
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7e957c53918030e0800000000000000
+      internalID: -2292189740420194694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_47
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 386
+        width: 34
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e56ce2dddc1e0fb30800000000000000
+      internalID: 4319200316943681118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_48
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 386
+        width: 34
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 382072881ff57bc80800000000000000
+      internalID: -8307065496685575549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_49
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 361
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fec695e8036c3040800000000000000
+      internalID: 4628683406892781303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_50
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 361
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6a90754e1558e560800000000000000
+      internalID: 7343212780929981039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_51
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 361
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f7e4035bc07f5610800000000000000
+      internalID: 1612131210195429367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_52
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 361
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8b7f9b84d7186fa0800000000000000
+      internalID: -5807365517851264114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_53
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 361
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b06de1334b64a9d00800000000000000
+      internalID: 980173608672220683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_54
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 361
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c216b2a2956c0840800000000000000
+      internalID: 5191636150920811201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_55
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 361
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdbc31c7481e9a920800000000000000
+      internalID: 3002178585752751067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_56
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 361
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d62c7ec4079bc980800000000000000
+      internalID: -8517548223341254954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_57
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 361
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb218c43981d58760800000000000000
+      internalID: 7459598745035346622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_58
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 361
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65407f9b96ea37a40800000000000000
+      internalID: 5364823350243165270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_59
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 378
+        width: 34
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56eff20ff8878d9a0800000000000000
+      internalID: -6208079526724895131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_60
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 373
+        width: 34
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cd43a4c1a5450440800000000000000
+      internalID: 4901400330553740738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_61
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 373
+        width: 34
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57202f5a6e9d7def0800000000000000
+      internalID: -83358483433258379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_62
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 373
+        width: 34
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 775e39b6842313790800000000000000
+      internalID: -7552199813499722377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_63
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 364
+        width: 34
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 127cdb65e01b47f30800000000000000
+      internalID: 4572474196830832417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_64
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 359
+        width: 34
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fac283a3c8b8f8630800000000000000
+      internalID: 3931514434106174639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_65
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 359
+        width: 34
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 091dd9e06abb92990800000000000000
+      internalID: -7410185389977251440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_66
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 359
+        width: 34
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f947695c6041f450800000000000000
+      internalID: 6120744202673801712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_67
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 318
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c06cb84b61e9e09f0800000000000000
+      internalID: -500288688236018164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_68
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 310
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0d0a27454fc08df0800000000000000
+      internalID: -179916088641188596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_69
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 319
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9aaafca2fba1fe70800000000000000
+      internalID: 9147281376938732187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_70
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 311
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8ed62cd9e47a6f90800000000000000
+      internalID: -6959621726377943414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_71
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 319
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b7b085d7e08b7730800000000000000
+      internalID: 3997930827429230516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_72
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 311
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a04153d15c7a1d460800000000000000
+      internalID: 7264772138965734410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_73
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 323
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd7fabccddac357b0800000000000000
+      internalID: -5236618887730366500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_74
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 323
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4901e17401ae00f40800000000000000
+      internalID: 5692807284629835924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_75
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 323
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bb31697f3c54adc0800000000000000
+      internalID: -3628673972064666703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_76
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 323
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8015b74fbfec7710800000000000000
+      internalID: 1692491164805304459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_77
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 323
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53824fe7f31bdf8b0800000000000000
+      internalID: -5116738715352029131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_78
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 323
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d8beeefd36878ff0800000000000000
+      internalID: -33910871353804586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_79
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 323
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a254bf24c07165f50800000000000000
+      internalID: 6869703623031080234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_80
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 323
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffc5a57efb0a73e80800000000000000
+      internalID: -8198907850524041985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_81
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 323
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c965740b045073810800000000000000
+      internalID: 1744869156022867612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_82
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 323
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1757b559e598ee120800000000000000
+      internalID: 2445042687034488177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_83
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 269
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d2aaa9e376d872c0800000000000000
+      internalID: -4433558039816396072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_84
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 256
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2edc4af0260a66f50800000000000000
+      internalID: 6874358224257338850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_85
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 269
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6016d9e08cca818e0800000000000000
+      internalID: -1722436882230583034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_86
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 256
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8340ba1efd7956d40800000000000000
+      internalID: 5577030701387809848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_87
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 269
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e914a488f7e95d7d0800000000000000
+      internalID: -2894232914931072610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_88
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 256
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d361a0c315f2ace0800000000000000
+      internalID: -1395283469346446377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_89
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 285
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b9a876b3a4b88590800000000000000
+      internalID: -7671683349991609929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_90
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 285
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 670b19a20ed972340800000000000000
+      internalID: 4839009910745313398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_91
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 285
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3d392073abfa94f0800000000000000
+      internalID: -821067302661702337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_92
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 285
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dae4d27207eac8f20800000000000000
+      internalID: 3426305213238955693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_93
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 285
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63b0659c6573c1ea0800000000000000
+      internalID: -5900780565877617866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_94
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 285
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dac2fedeb1d1cd4a0800000000000000
+      internalID: -6567342150819828563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_95
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 285
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c2a31148ce3dc590800000000000000
+      internalID: -7652391162026417465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_96
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 285
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67fd596f45cd3a970800000000000000
+      internalID: 8765091557265497974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_97
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 285
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef96dd658d5ba7700800000000000000
+      internalID: 538943046199110142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_98
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 285
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d59e275f54380ed0800000000000000
+      internalID: -2447648813386656304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_99
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 215
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9124702df10be89d0800000000000000
+      internalID: -2770083070072110567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_100
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 215
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73fc7caf2162d0bb0800000000000000
+      internalID: -4968272950961123529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_101
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 215
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac98cff04f6181560800000000000000
+      internalID: 7284597634767817162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_102
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 247
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20be3dc11a75d21c0800000000000000
+      internalID: -4526865700952478974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_103
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 247
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecebf9b8fcd408bd0800000000000000
+      internalID: -2630016628588298546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_104
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 247
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5586332e7733e410800000000000000
+      internalID: 1505107715368060253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_105
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 247
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84a002b1aa9dfcda0800000000000000
+      internalID: -5922275660346160568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_106
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 247
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e773ff5873be5920800000000000000
+      internalID: 2981017332953085928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_107
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 247
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 831bf20490dd21700800000000000000
+      internalID: 509712739647598904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_108
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 247
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2cedb09e732cc9c0800000000000000
+      internalID: -3905707750335845334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_109
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 247
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c158231ea4af91fb0800000000000000
+      internalID: -4676431538534841060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_110
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 247
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03ec5a7d13c08f3f0800000000000000
+      internalID: -866929520057922000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_111
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 247
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4abf968da4486c020800000000000000
+      internalID: 2361720511595674532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_112
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 202
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c22807905037b8a0800000000000000
+      internalID: -6289505231910198589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_113
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 202
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 871032f2e98493650800000000000000
+      internalID: 6213077005167165816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_114
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 202
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55e9fcfc019f04d90800000000000000
+      internalID: -7115413560644100523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_115
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 202
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 409f7dc73944324d0800000000000000
+      internalID: -3160607113238546172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_116
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 202
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 719a620e1f823c120800000000000000
+      internalID: 2432833243023059223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_117
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 202
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ade2c3b29ac664a0800000000000000
+      internalID: -6600365472434950752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_118
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 202
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2eba24501697c680800000000000000
+      internalID: -8734847955386057172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_119
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 161
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83e8c9e4c70c19b00800000000000000
+      internalID: 833659046167612984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_120
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 161
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d113e2f0284dd8f90800000000000000
+      internalID: -6949664994897284835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_121
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 161
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6584c43db35b1cde0800000000000000
+      internalID: -1314570347662784426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_122
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 161
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8370de6bab8b059d0800000000000000
+      internalID: -2787525057269921992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_123
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 161
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16fb9c3974f972550800000000000000
+      internalID: 6136048147086557025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_124
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 97
+        width: 36
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78853fe2df3dea010800000000000000
+      internalID: 1202131234922387591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_125
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 180
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 779fad158e30caf10800000000000000
+      internalID: 2282203407510600055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_126
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 180
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e534dbe0f4aadbe0800000000000000
+      internalID: -1451666575217904153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_127
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 178
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd559b1da59326260800000000000000
+      internalID: 7089291825663006173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_128
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 101
+        width: 45
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12ba2d308d6fca030800000000000000
+      internalID: 3507449617452280609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_129
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 148
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12d8d452dac2c0500800000000000000
+      internalID: 363714792076971297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_130
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 164
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c0df6780cf8a5aa0800000000000000
+      internalID: -6171462282289098551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_131
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 152
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f3a18fd4f64cc6d0800000000000000
+      internalID: -2968920036808219662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_132
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 161
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 521278dca0e3c6ae0800000000000000
+      internalID: -1554799555230883547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_133
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 123
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df48e633d07375e60800000000000000
+      internalID: 7950884196982883581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_134
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 123
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 686870a31ca2c1e90800000000000000
+      internalID: -7053715906978412922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_135
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 123
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8bda576e89bb5780800000000000000
+      internalID: -8693150634438108274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_136
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 123
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 188f6ec8d8cc04050800000000000000
+      internalID: 5782846829870119041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_137
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 123
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1428f6e895a5be0d0800000000000000
+      internalID: -3392518553605275071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_138
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 155
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47e411802b8d8c920800000000000000
+      internalID: 3010894610048306804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_139
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 143
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef81d41641875de80800000000000000
+      internalID: -8154479521357293314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_140
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 85
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c385cac27b788e700800000000000000
+      internalID: 569854573660624956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_141
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 85
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2a72f4687c669b10800000000000000
+      internalID: 1987895549876140589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_142
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 85
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47228fa1247dc6a20800000000000000
+      internalID: 3057054925998006900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_143
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 85
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99242852495635a10800000000000000
+      internalID: 1896971555011969689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_144
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 85
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c00856175e0b0690800000000000000
+      internalID: -7634992976076734269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_145
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 108
+        width: 39
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d8d431174a6b2540800000000000000
+      internalID: 4984194266079484114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_146
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 99
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9c455bf4066521d0800000000000000
+      internalID: -3376180174061744996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_147
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 98
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db612d30ded455d10800000000000000
+      internalID: 2113681280487003837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_148
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 43
+        width: 28
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bb0a5f5ca4735060800000000000000
+      internalID: 6941019734390999993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_149
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 89
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 238eacd0ba9281bc0800000000000000
+      internalID: -3812251269921576910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_150
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 47
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c504cfd1be1dfd760800000000000000
+      internalID: 7484931913463644252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_151
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 47
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b009b26148ab1c490800000000000000
+      internalID: -7727690409120657397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_152
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 47
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c42941695814671f0800000000000000
+      internalID: -1047577821312675252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_153
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 47
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef4ee281527e46740800000000000000
+      internalID: 5144490820869481726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_154
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 47
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98bc17c26e0d833c0800000000000000
+      internalID: -4379520950611096695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_155
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 67
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0e4549ae594c6660800000000000000
+      internalID: 7380354560269045259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_156
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 69
+        width: 101
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df158ca9c6d58a2a0800000000000000
+      internalID: -6726023322443165187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_157
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 48
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 688e041af5c99eb50800000000000000
+      internalID: 6622996661566236806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_158
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 2
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44b5ed74c2d0702e0800000000000000
+      internalID: -2159743012465386684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_159
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 2
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72c9cc638322e7e80800000000000000
+      internalID: -8179062248425350105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_160
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 24
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ada2ca574bc8f2c0800000000000000
+      internalID: -4397541528801464923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_161
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 29
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2253329ee19d9d410800000000000000
+      internalID: 1502470677488416034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vaporwave Tile Set 2_162
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 2
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6d22538a0ee4b830800000000000000
+      internalID: 4086152490852167021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
