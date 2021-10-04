@@ -116,6 +116,8 @@ namespace Objects
                 if (order == null && timeOfWaitForOrder > orderWaitTimeLimit)
                 {
                     order = GETRandomFood();
+                    orderBubble.transform.GetChild(0).gameObject.GetComponent<SpriteRenderer>().sprite =
+                        order.menuItemSprite;
                 }
                 if (timeOfWaitForOrder > orderWaitTimeLimit + LOAController.orderWaitIncrementAngerOffsetTime)
                 {
