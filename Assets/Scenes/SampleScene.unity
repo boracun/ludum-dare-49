@@ -1980,6 +1980,11 @@ EdgeCollider2D:
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
   m_UseAdjacentEndPoint: 0
+--- !u!95 &1251290369 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 8235252504781803443, guid: fce34a3204a33c640b23981ea0d31bc7, type: 3}
+  m_PrefabInstance: {fileID: 2925364844897977653}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1350582839
 GameObject:
   m_ObjectHideFlags: 0
@@ -6904,17 +6909,9 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 407503990241971344, guid: fce34a3204a33c640b23981ea0d31bc7, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 2925364845736912970, guid: fce34a3204a33c640b23981ea0d31bc7, type: 3}
       propertyPath: m_Name
       value: Waiter
-      objectReference: {fileID: 0}
-    - target: {fileID: 2925364845736912970, guid: fce34a3204a33c640b23981ea0d31bc7, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2925364845736913076, guid: fce34a3204a33c640b23981ea0d31bc7, type: 3}
       propertyPath: m_RootOrder
@@ -6960,29 +6957,13 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2925364845736913078, guid: fce34a3204a33c640b23981ea0d31bc7, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5243469267171657664, guid: fce34a3204a33c640b23981ea0d31bc7, type: 3}
-      propertyPath: m_Color.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5243469267171657664, guid: fce34a3204a33c640b23981ea0d31bc7, type: 3}
-      propertyPath: m_Color.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5243469267171657664, guid: fce34a3204a33c640b23981ea0d31bc7, type: 3}
-      propertyPath: m_Color.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6604296823187503202, guid: fce34a3204a33c640b23981ea0d31bc7, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8289149966567188001, guid: fce34a3204a33c640b23981ea0d31bc7, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
+    - target: {fileID: 2925364845736913079, guid: fce34a3204a33c640b23981ea0d31bc7, type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 1251290369}
+    - target: {fileID: 8235252504781803443, guid: fce34a3204a33c640b23981ea0d31bc7, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: b4a229203f668ce41bcc00e3114c8dcc, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fce34a3204a33c640b23981ea0d31bc7, type: 3}

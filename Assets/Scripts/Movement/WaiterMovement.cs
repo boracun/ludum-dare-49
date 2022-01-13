@@ -14,6 +14,7 @@ namespace Movement
         public float playerSpeed;
         public Rigidbody2D rBody;
         public SpriteRenderer spriteRenderer;       //Move this to Animation Code when it is created
+        public Animator animator;
         private Vector2 _playerDirection;
         
         private int imbalanceLevel = 0;
@@ -54,6 +55,7 @@ namespace Movement
         void FixedUpdate()
         {
             rBody.velocity = new Vector2(_playerDirection.x * playerSpeed, _playerDirection.y * playerSpeed);
+            animator.SetFloat("Speed", rBody.velocity.magnitude);
         }
 
         private void HandleImbalanceLevel()
