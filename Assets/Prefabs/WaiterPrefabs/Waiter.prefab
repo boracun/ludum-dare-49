@@ -233,6 +233,7 @@ MonoBehaviour:
   playerSpeed: 3
   rBody: {fileID: 2925364845736913073}
   spriteRenderer: {fileID: 2925364845736913077}
+  animator: {fileID: 8235252504781803443}
 --- !u!114 &871743759924365974
 MonoBehaviour:
   m_ObjectHideFlags: 0
