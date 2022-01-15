@@ -46,6 +46,7 @@ GameObject:
   - component: {fileID: -6873968549553894392}
   - component: {fileID: -2836264242614208995}
   - component: {fileID: 4126677286204197923}
+  - component: {fileID: 70446356168084219}
   m_Layer: 0
   m_Name: Customer1
   m_TagString: Customer
@@ -165,6 +166,7 @@ MonoBehaviour:
   hasPointGiven: 0
   orderBubble: {fileID: 1923169967294061568}
   throwableObjectPrefab: {fileID: 4262912482708440560, guid: ac8a839af9cc76e4bb967468213a60f2, type: 3}
+  customerType: 0
 --- !u!114 &-2836264242614208995
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -185,6 +187,7 @@ MonoBehaviour:
   routeStep: 0
   rBody: {fileID: 0}
   table: {fileID: 0}
+  customerAnimator: {fileID: 70446356168084219}
 --- !u!61 &4126677286204197923
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -211,6 +214,25 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.14, y: 0.2}
   m_EdgeRadius: 0
+--- !u!95 &70446356168084219
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2521437395178971254}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 857ed8f803e98f14d893e5ab375b9986, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &4444708822283612086
 GameObject:
   m_ObjectHideFlags: 0

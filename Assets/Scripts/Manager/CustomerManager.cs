@@ -70,12 +70,16 @@ public class CustomerManager : MonoBehaviour
         switch (randomNum)
         {
             case 1:
+                customer1Prefab.GetComponent<Customer>().customerType = 1;
                 return customer1Prefab;
             case 2:
+                customer2Prefab.GetComponent<Customer>().customerType = 2;
                 return customer2Prefab;
             case 3:
+                customer3Prefab.GetComponent<Customer>().customerType = 3;
                 return customer3Prefab;
             case 4:
+                customer4Prefab.GetComponent<Customer>().customerType = 4;
                 return customer4Prefab;
         }
 

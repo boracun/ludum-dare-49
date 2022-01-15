@@ -1610,6 +1610,7 @@ MonoBehaviour:
   customer2Prefab: {fileID: 5159276290017112721, guid: f50dca795bca2f44aa48f8e6b43745a8, type: 3}
   customer3Prefab: {fileID: 8209086981570670535, guid: 58fd262cd0118944e90407d7b4f0775b, type: 3}
   customer4Prefab: {fileID: 4656219428715600066, guid: 8636b95958a088147be245249c7ed6f7, type: 3}
+  animator: {fileID: 8065391907324881352, guid: 628e50c14c7a98147b7c7e6d8c90c32d, type: 3}
   entranceTransform: {fileID: 582709089}
 --- !u!4 &990453358
 Transform:

@@ -27,8 +27,9 @@ namespace Movement
         public Rigidbody2D rBody;
         
         public GameObject table;
-    
-    
+
+        public Animator customerAnimator;
+
         // Start is called before the first frame update
         void Start()
         {
@@ -84,6 +85,7 @@ namespace Movement
         private void WaitModeLogic()
         {
             rBody.velocity = new Vector2(0, 0);
+            customerAnimator.SetBool("IsWalking", false);
         }
 
         private void LeaveModeLogic()
@@ -94,6 +96,7 @@ namespace Movement
                 LeaveModeDestinationReachedLogic();
             }
             PathNavigationLogic(-1);
+            customerAnimator.SetBool("IsWalking", true);
         }
 
         private void EnterModeLogic()
@@ -104,6 +107,7 @@ namespace Movement
                 EnterModeDestinationReachedLogic();
             }
             PathNavigationLogic(1);
+            customerAnimator.SetBool("IsWalking", true);
         }
 
         private void EnterModeDestinationReachedLogic()

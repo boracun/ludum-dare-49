@@ -48,6 +48,8 @@ namespace Objects
 
         public GameObject throwableObjectPrefab;
 
+        public int customerType;
+
         public void Start()
         {
             hasOrdered = false;
