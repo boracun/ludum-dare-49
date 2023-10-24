@@ -96,7 +96,7 @@ TextureImporter:
       213: -7265388314283571386
     second: Bottom_Right_Dungeon_Door_Opened
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -113,9 +113,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -125,8 +128,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -147,10 +150,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -162,6 +170,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -174,6 +183,59 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -840,9 +902,40 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      Barrel: -4584001840792588798
+      Bottom_Left_Corner_Tile: -7272623609870431233
+      Bottom_Left_Dungeon_Door_Closed: 2365339308313440513
+      Bottom_Left_Dungeon_Door_Opened: 457820117542733627
+      Bottom_Middle_Dungeon_Door_Closed: -6085209271259904505
+      Bottom_Middle_Dungeon_Door_Opened: -6975971501963557229
+      Bottom_Right_Corner_Tile: -451775213456855256
+      Bottom_Right_Dungeon_Door_Closed: -7743214850641337493
+      Bottom_Right_Dungeon_Door_Opened: -7265388314283571386
+      Bottom_Wall_Tile: 4768812464063954029
+      Dungeon-2D-PixelArt-Tileset_5: 2056942473736830267
+      Floor_Cracked: -9141938605990679566
+      Floor_Flat: 4017470158936073506
+      Floor_Tiled_Cracked: 6961584852583578572
+      Floor_Tiled_Cracked2: -8859803436593824983
+      Floor_Tiled_flat: 5170418447652190022
+      Left_Wall_Tile: 8925430282067451464
+      Mossy_Wall_Tile1: -1820933343298804998
+      Mossy_Wall_Tile2: 3957419326524138300
+      Mossy_Wall_Tile3: 2161171272659936262
+      Potion: 8145951374611147372
+      Right_Wall_Tile: -7920979180335983864
+      Top_Left_Corner_Tile: 5288188997765318534
+      Top_Left_Dungeon_Door_Closed: -5225876556858284812
+      Top_Left_Dungeon_Door_Opened: -3697355384244169913
+      Top_Middle_Dungeon_Door_Closed: -3094171731127790719
+      Top_Middle_Dungeon_Door_Opened: -5767162948771900228
+      Top_Right_Corner_Tile: 6764832518669002963
+      Top_Right_Dungeon_Door_Closed: -6558360575689610975
+      Top_Right_Dungeon_Door_Opened: 7145941756167820797
+      Top_Wall_Tile: -2672306381724259459
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

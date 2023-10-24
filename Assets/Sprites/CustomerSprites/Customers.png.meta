@@ -99,7 +99,7 @@ TextureImporter:
       213: 6345179209212349798
     second: Customer_4_7
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -116,10 +116,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -158,6 +160,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -169,6 +173,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -181,6 +186,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -193,6 +199,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -205,6 +212,33 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -892,9 +926,41 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      Customer_1_0: -7028215270257684493
+      Customer_1_1: -5384411249408941408
+      Customer_1_2: -8882518240985109994
+      Customer_1_3: 3249155250164635762
+      Customer_1_4: 8300460384929931605
+      Customer_1_5: 5905982034480578280
+      Customer_1_6: -5716375310670982321
+      Customer_1_7: -8256170660068176849
+      Customer_2_0: 5432016278139700543
+      Customer_2_1: -7564846539668655490
+      Customer_2_2: -6447794432344318478
+      Customer_2_3: -213909627373044678
+      Customer_2_4: 6137834048931426466
+      Customer_2_5: -2834953467684642228
+      Customer_2_6: -7398140493537531990
+      Customer_2_7: -2276878391739548387
+      Customer_3_0: 1151701291081284243
+      Customer_3_1: 1020631588479195596
+      Customer_3_2: -2996158326126788256
+      Customer_3_3: 1168985355680302079
+      Customer_3_4: 7242157833400567582
+      Customer_3_5: 3085622423831654494
+      Customer_3_6: -8150190854510005540
+      Customer_3_7: 8352594575624245385
+      Customer_4_0: -6763199860149671307
+      Customer_4_1: -5945639951553075163
+      Customer_4_2: 5900094863258882327
+      Customer_4_3: 195365854243012341
+      Customer_4_4: 5758933518519100415
+      Customer_4_5: 5410064527714877427
+      Customer_4_6: -6020834797993631572
+      Customer_4_7: 6345179209212349798
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

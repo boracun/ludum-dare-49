@@ -492,7 +492,7 @@ TextureImporter:
       213: 4086152490852167021
     second: Vaporwave Tile Set 2_162
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -509,10 +509,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -551,6 +553,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -562,6 +566,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -574,6 +579,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -586,6 +592,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -598,6 +605,33 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -4036,9 +4070,172 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      Vaporwave Tile Set 2_0: 7154828056844575748
+      Vaporwave Tile Set 2_1: -7377587768099086690
+      Vaporwave Tile Set 2_10: 6363184174920616163
+      Vaporwave Tile Set 2_100: -4968272950961123529
+      Vaporwave Tile Set 2_101: 7284597634767817162
+      Vaporwave Tile Set 2_102: -4526865700952478974
+      Vaporwave Tile Set 2_103: -2630016628588298546
+      Vaporwave Tile Set 2_104: 1505107715368060253
+      Vaporwave Tile Set 2_105: -5922275660346160568
+      Vaporwave Tile Set 2_106: 2981017332953085928
+      Vaporwave Tile Set 2_107: 509712739647598904
+      Vaporwave Tile Set 2_108: -3905707750335845334
+      Vaporwave Tile Set 2_109: -4676431538534841060
+      Vaporwave Tile Set 2_11: 8506785616927564532
+      Vaporwave Tile Set 2_110: -866929520057922000
+      Vaporwave Tile Set 2_111: 2361720511595674532
+      Vaporwave Tile Set 2_112: -6289505231910198589
+      Vaporwave Tile Set 2_113: 6213077005167165816
+      Vaporwave Tile Set 2_114: -7115413560644100523
+      Vaporwave Tile Set 2_115: -3160607113238546172
+      Vaporwave Tile Set 2_116: 2432833243023059223
+      Vaporwave Tile Set 2_117: -6600365472434950752
+      Vaporwave Tile Set 2_118: -8734847955386057172
+      Vaporwave Tile Set 2_119: 833659046167612984
+      Vaporwave Tile Set 2_12: -3621407841137428544
+      Vaporwave Tile Set 2_120: -6949664994897284835
+      Vaporwave Tile Set 2_121: -1314570347662784426
+      Vaporwave Tile Set 2_122: -2787525057269921992
+      Vaporwave Tile Set 2_123: 6136048147086557025
+      Vaporwave Tile Set 2_124: 1202131234922387591
+      Vaporwave Tile Set 2_125: 2282203407510600055
+      Vaporwave Tile Set 2_126: -1451666575217904153
+      Vaporwave Tile Set 2_127: 7089291825663006173
+      Vaporwave Tile Set 2_128: 3507449617452280609
+      Vaporwave Tile Set 2_129: 363714792076971297
+      Vaporwave Tile Set 2_13: -3161135508570940946
+      Vaporwave Tile Set 2_130: -6171462282289098551
+      Vaporwave Tile Set 2_131: -2968920036808219662
+      Vaporwave Tile Set 2_132: -1554799555230883547
+      Vaporwave Tile Set 2_133: 7950884196982883581
+      Vaporwave Tile Set 2_134: -7053715906978412922
+      Vaporwave Tile Set 2_135: -8693150634438108274
+      Vaporwave Tile Set 2_136: 5782846829870119041
+      Vaporwave Tile Set 2_137: -3392518553605275071
+      Vaporwave Tile Set 2_138: 3010894610048306804
+      Vaporwave Tile Set 2_139: -8154479521357293314
+      Vaporwave Tile Set 2_14: -493620720916341614
+      Vaporwave Tile Set 2_140: 569854573660624956
+      Vaporwave Tile Set 2_141: 1987895549876140589
+      Vaporwave Tile Set 2_142: 3057054925998006900
+      Vaporwave Tile Set 2_143: 1896971555011969689
+      Vaporwave Tile Set 2_144: -7634992976076734269
+      Vaporwave Tile Set 2_145: 4984194266079484114
+      Vaporwave Tile Set 2_146: -3376180174061744996
+      Vaporwave Tile Set 2_147: 2113681280487003837
+      Vaporwave Tile Set 2_148: 6941019734390999993
+      Vaporwave Tile Set 2_149: -3812251269921576910
+      Vaporwave Tile Set 2_15: -525516665333343172
+      Vaporwave Tile Set 2_150: 7484931913463644252
+      Vaporwave Tile Set 2_151: -7727690409120657397
+      Vaporwave Tile Set 2_152: -1047577821312675252
+      Vaporwave Tile Set 2_153: 5144490820869481726
+      Vaporwave Tile Set 2_154: -4379520950611096695
+      Vaporwave Tile Set 2_155: 7380354560269045259
+      Vaporwave Tile Set 2_156: -6726023322443165187
+      Vaporwave Tile Set 2_157: 6622996661566236806
+      Vaporwave Tile Set 2_158: -2159743012465386684
+      Vaporwave Tile Set 2_159: -8179062248425350105
+      Vaporwave Tile Set 2_16: -3450567813860818602
+      Vaporwave Tile Set 2_160: -4397541528801464923
+      Vaporwave Tile Set 2_161: 1502470677488416034
+      Vaporwave Tile Set 2_162: 4086152490852167021
+      Vaporwave Tile Set 2_17: -3772980933870987688
+      Vaporwave Tile Set 2_18: 3273727004898211654
+      Vaporwave Tile Set 2_19: -7289031931046385682
+      Vaporwave Tile Set 2_2: 3722286063719815407
+      Vaporwave Tile Set 2_20: 4251280517408974061
+      Vaporwave Tile Set 2_21: -1968688576473591968
+      Vaporwave Tile Set 2_22: -7686575033507739080
+      Vaporwave Tile Set 2_23: 5325791678413668731
+      Vaporwave Tile Set 2_24: 5292255362450382795
+      Vaporwave Tile Set 2_25: -679763336853150351
+      Vaporwave Tile Set 2_26: -8788496538945704558
+      Vaporwave Tile Set 2_27: -7434836683099691645
+      Vaporwave Tile Set 2_28: -2822294399176281507
+      Vaporwave Tile Set 2_29: 8519283646420708939
+      Vaporwave Tile Set 2_3: 4421250533442410740
+      Vaporwave Tile Set 2_30: -6284253092583738629
+      Vaporwave Tile Set 2_31: 87905154032061286
+      Vaporwave Tile Set 2_32: -2958670571156230993
+      Vaporwave Tile Set 2_33: 2216829764420970663
+      Vaporwave Tile Set 2_34: -649379718937592184
+      Vaporwave Tile Set 2_35: 7066182865774216992
+      Vaporwave Tile Set 2_36: -4193661217725814107
+      Vaporwave Tile Set 2_37: 6598245830285637677
+      Vaporwave Tile Set 2_38: -8427818989589660998
+      Vaporwave Tile Set 2_39: 5048332040893794033
+      Vaporwave Tile Set 2_4: 5317125700476490223
+      Vaporwave Tile Set 2_40: 719773726213460799
+      Vaporwave Tile Set 2_41: 2507529975017567178
+      Vaporwave Tile Set 2_42: 1611917486457760127
+      Vaporwave Tile Set 2_43: 7201554325639372850
+      Vaporwave Tile Set 2_44: 4819398620941241582
+      Vaporwave Tile Set 2_45: -2716924228795369021
+      Vaporwave Tile Set 2_46: -2292189740420194694
+      Vaporwave Tile Set 2_47: 4319200316943681118
+      Vaporwave Tile Set 2_48: -8307065496685575549
+      Vaporwave Tile Set 2_49: 4628683406892781303
+      Vaporwave Tile Set 2_5: 6246856422693152570
+      Vaporwave Tile Set 2_50: 7343212780929981039
+      Vaporwave Tile Set 2_51: 1612131210195429367
+      Vaporwave Tile Set 2_52: -5807365517851264114
+      Vaporwave Tile Set 2_53: 980173608672220683
+      Vaporwave Tile Set 2_54: 5191636150920811201
+      Vaporwave Tile Set 2_55: 3002178585752751067
+      Vaporwave Tile Set 2_56: -8517548223341254954
+      Vaporwave Tile Set 2_57: 7459598745035346622
+      Vaporwave Tile Set 2_58: 5364823350243165270
+      Vaporwave Tile Set 2_59: -6208079526724895131
+      Vaporwave Tile Set 2_6: -2985934901250467395
+      Vaporwave Tile Set 2_60: 4901400330553740738
+      Vaporwave Tile Set 2_61: -83358483433258379
+      Vaporwave Tile Set 2_62: -7552199813499722377
+      Vaporwave Tile Set 2_63: 4572474196830832417
+      Vaporwave Tile Set 2_64: 3931514434106174639
+      Vaporwave Tile Set 2_65: -7410185389977251440
+      Vaporwave Tile Set 2_66: 6120744202673801712
+      Vaporwave Tile Set 2_67: -500288688236018164
+      Vaporwave Tile Set 2_68: -179916088641188596
+      Vaporwave Tile Set 2_69: 9147281376938732187
+      Vaporwave Tile Set 2_7: -2040569670075056444
+      Vaporwave Tile Set 2_70: -6959621726377943414
+      Vaporwave Tile Set 2_71: 3997930827429230516
+      Vaporwave Tile Set 2_72: 7264772138965734410
+      Vaporwave Tile Set 2_73: -5236618887730366500
+      Vaporwave Tile Set 2_74: 5692807284629835924
+      Vaporwave Tile Set 2_75: -3628673972064666703
+      Vaporwave Tile Set 2_76: 1692491164805304459
+      Vaporwave Tile Set 2_77: -5116738715352029131
+      Vaporwave Tile Set 2_78: -33910871353804586
+      Vaporwave Tile Set 2_79: 6869703623031080234
+      Vaporwave Tile Set 2_8: -7906831516511777079
+      Vaporwave Tile Set 2_80: -8198907850524041985
+      Vaporwave Tile Set 2_81: 1744869156022867612
+      Vaporwave Tile Set 2_82: 2445042687034488177
+      Vaporwave Tile Set 2_83: -4433558039816396072
+      Vaporwave Tile Set 2_84: 6874358224257338850
+      Vaporwave Tile Set 2_85: -1722436882230583034
+      Vaporwave Tile Set 2_86: 5577030701387809848
+      Vaporwave Tile Set 2_87: -2894232914931072610
+      Vaporwave Tile Set 2_88: -1395283469346446377
+      Vaporwave Tile Set 2_89: -7671683349991609929
+      Vaporwave Tile Set 2_9: 8778712392743450808
+      Vaporwave Tile Set 2_90: 4839009910745313398
+      Vaporwave Tile Set 2_91: -821067302661702337
+      Vaporwave Tile Set 2_92: 3426305213238955693
+      Vaporwave Tile Set 2_93: -5900780565877617866
+      Vaporwave Tile Set 2_94: -6567342150819828563
+      Vaporwave Tile Set 2_95: -7652391162026417465
+      Vaporwave Tile Set 2_96: 8765091557265497974
+      Vaporwave Tile Set 2_97: 538943046199110142
+      Vaporwave Tile Set 2_98: -2447648813386656304
+      Vaporwave Tile Set 2_99: -2770083070072110567
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
